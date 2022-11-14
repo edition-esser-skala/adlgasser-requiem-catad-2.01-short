@@ -1,0 +1,19 @@
+composer: Adlgasser
+  last: Anton
+  first: Cajetan
+title: Requiem
+id: AWV 2.01
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.1813
+    rism: 600101827
+    url: https://data.onb.ac.at/rec/AC14254701
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
