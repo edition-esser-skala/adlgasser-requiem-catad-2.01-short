@@ -27,3 +27,30 @@ IntroitusTimpani = {
     R2.\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoKyrie
+    c4\f r r2
+    c4 r r2
+    c4 r c r
+    r2 r8 c16 c c8 c
+    c4 r r2 %5
+    r4 r8 g c4 r
+    R1*5 %11
+    r2 r8 g\f g4
+    r4 c8 r r4 c8 r
+    r2 g4 r
+    g8 g16 g g8 g c4 r %15
+    r2 c4 r
+    r2 c4 r
+    c r r2
+    R1*5 %23
+    r2 r8 g\f g r
+    R1*2 %26
+    r4 g8.\f g16 c4 r
+    r g8. g16 c4 r8 g
+    c c16 c c8 c c4 r\fermata \bar "|." %29 finis
+  }
+}

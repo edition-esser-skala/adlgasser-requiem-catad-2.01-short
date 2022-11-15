@@ -30,3 +30,26 @@ IntroitusTromboneII = {
     R2.\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoKyrie
+    R1*9 %9
+    r2 h\p %10
+    c h4 r
+    c2 h4 r
+    c8\f d c h c d c r
+    c8. c16 d8 d e2
+    d c4 r %15
+    R1*6 %21
+    r2 h\p
+    c h
+    c h4 r
+    c8\f e r a, h d r c %25
+    a4 d g,4. e'8
+    d2 c4 r
+    d2 c4 r
+    R1\fermata \bar "|." %29 finis
+  }
+}

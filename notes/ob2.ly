@@ -61,3 +61,38 @@ IntroitusOboeII = {
     f8 c a4 r\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoKyrie
+    e4\f r r8 g g g
+    e4 r r8 g g g
+    e g e4~ e8 g e4
+    e'8 r d r c r r4
+    r2 r8 h4 h8 %5
+    c c4 h8 c4 r
+    R1*2
+    r2 r8 e(\f d c)
+    a2 g4 r %10
+    R1
+    r2 r4 r8 h\f
+    c d g, h c d g,4
+    c a e2
+    d e4 r %15
+    r8 g g g e4 r
+    r8 g g g e g e4~
+    e8 g e4 e'8 r d r
+    c r r4 r2
+    R1 %20
+    r2 r8 e(\f d c)
+    a2 g4 r
+    R1
+    r2 r4 r8 h\fE
+    a2 g %25
+    f-\critnote e
+    a4 g g r8 e'16 c
+    a4 g g8 c4 h8
+    c r e, e e4 r\fermata \bar "|." %29 finis
+  }
+}

@@ -99,6 +99,58 @@ IntroitusSopranoLyrics = \lyricmode {
   lem: %49 finis
 }
 
+KyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*6 %6
+    \mvTr c'2\p^\tuttiE c
+    c4( d) e( d)
+    d2 c4 r
+    r2 g~\p %10
+    g4 g g r8 g
+    g2 g4 r8 g'\f
+    f4 e8 g f4 e8 r
+    e8. e16 f8 d c2
+    h c4 r %15
+    R1*3
+    r2 c~
+    c4 d e d %20
+    d2 c4 r
+    r2 g\p
+    g4 g g2
+    g8 g g4 g r8 g'\f
+    g4 f f8. e16 e8 e %25
+    e4 d d8. d16 c4~
+    c8 c^\critnote \appoggiatura c h4 c8 g'16([ e)] c4~
+    c h c r
+    R1\fermata \bar "|." %29 finis
+  }
+}
+
+KyrieSopranoLyrics = \lyricmode {
+  Ky -- ri -- %7
+  e __ e --
+  lei -- son,
+  Ky -- %10
+  ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son,
+  Ky -- ri -- e e -- le --
+  i -- son. %15
+
+  Chri -- %19
+  _ ste e -- %20
+  lei -- son,
+  Chri --
+  ste e -- lei --
+  son, e -- lei -- son, e --
+  lei -- son, Ky -- ri -- e e -- %25
+  lei -- son, Ky -- ri -- e __
+  e -- lei -- son, e -- le --
+  i -- son. %28 finis
+}
+
 
 % Ky -- ri -- e e -- lei -- son.
 % Chri -- ste e -- lei -- son.

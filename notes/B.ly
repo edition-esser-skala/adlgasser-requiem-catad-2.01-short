@@ -101,3 +101,43 @@ IntroitusBassoLyrics = \lyricmode {
   _ ro ve -- ni -- %75
   et. %76 finis
 }
+
+KyrieBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*9 %9
+    r2 \mvTr g'~\p^\tuttiE %10
+    g4 g g r8 g
+    g2 g4 r8 g\fE
+    a([ h)] c g a([ h)] c r
+    a8. g16 f8 fis g2
+    g c,4 r %15
+    R1*6 %21
+    r2 g'\p
+    g4 g g2
+    g8 g g4 g r8 g\f
+    a[ c d f,] g[ h c e,] %25
+    f[ a] f d e([ g)] e c
+    f([ d] g4) c, r8 c'16([ a)]
+    f8 e16 d g4 c, r
+    R1\fermata \bar "|." %29 finis
+  }
+}
+
+KyrieBassoLyrics = \lyricmode {
+  Ky -- %10
+  ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son,
+  Ky -- ri -- e e -- le --
+  i -- son. %15
+
+  Chri -- %22
+  ste e -- lei --
+  son, e -- lei -- son, e --
+  lei -- _ %25
+  _ son, e -- lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son. %28 finis
+}

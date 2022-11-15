@@ -61,3 +61,34 @@ IntroitusFagottoII = {
     f4 f, r\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoKyrie
+    c4\f r r8 g' g g
+    c,4 r r8 g' g g
+    c,4. c8 c4. c8
+    c r g r c r r4
+    r2 r8 g'4 f8 %5
+    e a d, g c,4 r
+    R1*4 %10
+    r2 r8 h'(\pE c d)
+    c2 h8 r r g\f
+    a h c g a h c h
+    a g f fis g2
+    g, c4 r %15
+    r8 g' g g c,4 r
+    r8 g' g g c,4. c8
+    c4. c8 c r g r
+    c r r4 r2
+    R1*3 %22
+    r2 r8 h'(\pE c d)
+    c2 h8 r r g\fE
+    a c d f, g h c e, %25
+    f a f d e g e c
+    f d g g, c4 r8 c'16 a
+    f8 e16 d g8 g, c a' f g
+    c, r c, c c4 r\fermata \bar "|." %29 finis
+  }
+}

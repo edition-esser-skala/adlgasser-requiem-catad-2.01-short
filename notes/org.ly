@@ -171,3 +171,71 @@ IntroitusBassFigures = \figuremode {
   <6 5> <6 4> <5 3> %80
   r2. %81 finis
 }
+
+KyrieOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoKyrie
+    \mvTr c4-!\f-\soloE e-! g-! r
+    c,-! e-! g-! r
+    r8 c, e c r c e c
+    r c r g c e g e
+    f a d fis, g4 r8 f %5
+    e a f g c,4 r
+    \mvTr c\p-\senzaOrgE-\tuttiE r c r
+    r8 c h g c a' f d
+    g f g g, c4 r
+    \mvTr f(\f-\colOrg fis g) r %10
+    g\p r g r
+    g r g8\f a h g
+    a h c g a h c h
+    a g f fis g g g g
+    g, g g g c4-!-\senzaOrg e-!-\soloE %15
+    g-! r c,-! e-!
+    g-\parenthesize-! r r8 c, e c
+    r c e c c' r g r
+    c,4 r \mvTr c\p-\tuttiE r
+    r8 c h g c a' f d %20
+    g f g g, c4 r
+    \mvTr f(\f-\colOrg fis g) r
+    g\p r g r
+    g r g8\f a h g
+    a c d f, g h c e, f %25
+    a f d e g e c
+    f d g g, c4 r8 c'16 a
+    f8 e16 d g8 g, c a' f g
+    c, c' c, c c4 r\fermata \bar "|." %29 finis
+  }
+}
+
+KyrieBassFigures = \figuremode {
+  r1
+  r
+  r
+  r4. <7>8 <8 3>4. \once \bassFigureExtendersOn q8
+  <8 3>4 \once \bassFigureExtendersOn q8 <7 5>2 <4 2>8 %5
+  \bo <[6 \l]>4 \bc <[6 5]>2.
+  r1
+  r
+  r
+  <6>4 <7 5> <5 3>2 %10
+  <6 4> <5 3>
+  <6 4> <5 3>
+  <6>8 <\t>4 <8>8 <6> <\t>4.
+  <5>4 <6>8 <6 5> <6 4>2
+  <5 3>1 %15
+  r
+  r
+  r
+  r
+  r %20
+  r
+  <6>4 <7 5> <8 3>2
+  <6 4> <5 3>
+  <6 4> <5 3>4. \once \bassFigureExtendersOn q8
+  <7>4 <3> <7> <3>8 <6> %25
+  <7>4 <6> <7> <6>
+  <6 5>1
+  q2. q4
+  r1 %29 finis
+}

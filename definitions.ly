@@ -16,6 +16,7 @@ markRequiemDaCapo = {
 
 tempoIntroitus = \tempoMarkup "Moderato non tanto"
   tempoTeDecet = \tempoMarkup "Andantino"
+tempoKyrie = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/ob1.ly"

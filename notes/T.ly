@@ -91,3 +91,43 @@ IntroitusTenoreLyrics = \lyricmode {
   _ ro ve -- ni -- %75
   et. %76 finis
 }
+
+KyrieTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*9 %9
+    r2 \mvTr h(\p^\tuttiE %10
+    c4) c h r8 h
+    c2 h4 r8 g\f
+    c([ d)] c h c([ d)] c r
+    c8. c16 d8 d e2
+    d c4 r %15
+    R1*6 %21
+    r2 h\p
+    c4 c h2
+    c8 c c4 h r8 d\f
+    c e r a, h d r c %25
+    a4 d g,8. g16 g8 e'
+    d2 c4 r8 e
+    d2 c4 r
+    R1\fermata \bar "|." %29 finis
+  }
+}
+
+KyrieTenoreLyrics = \lyricmode {
+  Ky -- %10
+  ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son,
+  Ky -- ri -- e e -- le --
+  i -- son. %15
+
+  Chri -- %22
+  ste e -- lei --
+  son, e -- lei -- son, e --
+  lei -- son, e -- lei -- son, e --  %25
+  lei -- son, Ky -- ri -- e e --
+  lei -- son, e --
+  lei -- son. %28 finis
+}

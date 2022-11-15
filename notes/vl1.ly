@@ -87,3 +87,39 @@ IntroitusViolinoI = {
     f8 c f4 r\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoKyrie
+    <g' e' c'>8\f c-! c-! c-! h16( c a h) g( a f g)
+    e8 e'-! e-! e-! d16( e c d) h( c a h)
+    g4~ g16( c e c) g4~ g16( c e c)
+    g-! g( f e) f-! f( e d) e-! c'( h c) e( c g b)
+    a(f' e f) a f a, c h c d e f g a h %5
+    c8 c,16 e, d8 h' c c, r4
+    r8 f(\p e d) c-! a'( g f)
+    e r f r e r d r
+    r d d d c g'(\f f e)
+    d( e a, c) h d(\p e f) %10
+    e c'-! e-! g-! d d,( e f)
+    e c'-! e-! g-! d16 g,32\f a g16 g g g' g g
+    f16.\trill e64 f g,16[ f'] e g g g f16.\trill e64 f g,16[ f'] e e32( f) e16-! e-!
+    e e8 e16 f( d a d) g, e' e e e e e e
+    d h' h h h h h h <c e, g,>8 c,-! c-! c-! %15
+    h16( c a h) g( a f g) e8 e'-! e-! e-!
+    d16( e c d) h( c a h) g4~ g16( c e c)
+    g4~ g16( c e c) g-! g( f e) f-! f( e d)
+    c8-! f(\p e d) c-! a'( g f)
+    e r f r e r d r %20
+    r d d d c-! g'(\f f e)
+    d( e) a,( c) h-! d(\p e f)
+    e-! c'-! e-! g-! d d,( e f)
+    e-\parenthesize-! c'-! e-! g-! d16 g,32(\f a) g16-! g-! g g' g g
+    g a32( g) f16-! e-! f4~ f16 g32( f) e16-! d-! e4~ %25
+    e16 f32( e) d16-! cis-! d4~ d16 e32( d) c16-! h-! c4~
+    c8 c h h c g'16 e c4~
+    c16 c c c h h h h c \appoggiatura d32 c32( h) c16[-! e,]-! d8 h'
+    c g <e g,> q q4 r\fermata \bar "|." %29 finis
+  }
+}

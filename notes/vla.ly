@@ -87,3 +87,39 @@ IntroitusViola = {
     f4 f, r\fermata \markRequiemDaCapo \bar "||" %81 finis
   }
 }
+
+KyrieViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoKyrie
+    c4-!\f e-! g-! r
+    c,-! e-! g-! r
+    r8 c, e c r c e c
+    r c r g c e g e
+    f a d fis, g4 r8 f %5
+    e a f g c,4 r
+    r8 a(\p g f) e-! f( e d)
+    c c' h g c a f d
+    g( f g) g-! c,4 r
+    f(\f fis g) r %10
+    g\p r g r
+    g r g8\f a h g
+    c d g, h c d g, r
+    a g f fis g g g g
+    g g g g c4-! e-! %15
+    g-\parenthesize-! r c,-! e-!
+    g-\parenthesize-! r r8 c, e c
+    r c e c c r g r
+    c, a'(\p g f) e r r4
+    r8 c' h g c a' f d %20
+    g f g g, c4 r
+    \once \slurDashed f(\f fis g) r
+    g\p r g r
+    g r g8\f a h g
+    a c d f, g h c e, %25
+    f a f d e g e c
+    f d g g, c4 r8 c'16 a
+    f8 e16 d g8 g, c a' f g
+    c, c' c, c c4 r\fermata \bar "|." %29 finis
+  }
+}

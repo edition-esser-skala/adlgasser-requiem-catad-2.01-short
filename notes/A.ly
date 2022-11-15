@@ -83,3 +83,43 @@ IntroitusAltoLyrics = \lyricmode {
   in Ie -- ru -- sa --
   lem: %49 finis
 }
+
+KyrieAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*9 %9
+    r2 \mvTr d(\p^\tuttiE %10
+    e4) e d r8 d
+    e2 d4 r8 h'\f
+    a([ g)] g h a([ g)] g r
+    a8. a16 a8 a g2
+    g g4 r %15
+    R1*6 %21
+    r2 d\p
+    e4 e d2
+    e8 e e4 d r8 h'\f
+    a2 g %25
+    f4. a8 g4. g8
+    a4 g g r8 c,
+    a'4 g g r
+    R1\fermata \bar "|." %29 finis
+  }
+}
+
+KyrieAltoLyrics = \lyricmode {
+  Ky -- %10
+  ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- son,
+  Ky -- ri -- e e -- le --
+  i -- son. %15
+
+  Chri -- %22
+  ste e -- lei --
+  son, e -- lei -- son, e --
+  lei -- son, %25
+  Ky -- ri -- e e --
+  le -- i -- son, e --
+  le -- i -- son. %28 finis
+}
