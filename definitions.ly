@@ -6,7 +6,16 @@
 \include "ees.ly"
 
 
+markRequiemDaCapo = {
+  \once \override Score.RehearsalMark.break-visibility =
+    #begin-of-line-invisible
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remarkE \concat { "Requiem da capo " \critnote }
+}
+
+
 tempoIntroitus = \tempoMarkup "Moderato non tanto"
+  tempoTeDecet = \tempoMarkup "Andantino"
 
 
 \include "notes/ob1.ly"
