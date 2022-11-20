@@ -281,7 +281,7 @@ SequentiaBasso = {
     r8 d4 e8 %215
     fis d fis gis
     a2
-    g
+    g!
     fis8 d4 e8
     fis d e fis %220
     g4. e8

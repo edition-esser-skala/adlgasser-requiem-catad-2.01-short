@@ -468,7 +468,7 @@ SequentiaOrgano = {
       d8 s4. %220
     } \\ {
       a2_\bassi
-      g
+      g!
       fis8 d4 e8
       fis d e fis %220
     } >>

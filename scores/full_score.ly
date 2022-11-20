@@ -22,17 +22,17 @@
   %       \new StaffGroup <<
   %         \new Staff <<
   %           \set Staff.instrumentName = "Oboe I, II"
-  %           \partCombine \IntroitusOboeI \IntroitusOboeII
+  %           \partCombine #'(0 . 10) \IntroitusOboeI \IntroitusOboeII
   %         >>
   %         \new Staff <<
   %           \set Staff.instrumentName = "Fagotto I, II"
-  %           \partCombine \IntroitusFagottoI \IntroitusFagottoII
+  %           \partCombine #'(0 . 10) \IntroitusFagottoI \IntroitusFagottoII
   %         >>
   %       >>
   %       \new StaffGroup <<
   %         \new Staff \with { \smallStaffDistance } <<
   %           \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-  %           \partCombine \IntroitusClarinoI \IntroitusClarinoII
+  %           \partCombine #'(0 . 10) \IntroitusClarinoI \IntroitusClarinoII
   %         >>
   %         \new GrandStaff \with { \smallGroupDistance } <<
   %           \set GrandStaff.instrumentName = "Trombone"
@@ -113,17 +113,17 @@
   %       \new StaffGroup <<
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-  %           \partCombine \KyrieOboeI \KyrieOboeII
+  %           \partCombine #'(0 . 10) \KyrieOboeI \KyrieOboeII
   %         >>
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-  %           \partCombine \KyrieFagottoI \KyrieFagottoII
+  %           \partCombine #'(0 . 10) \KyrieFagottoI \KyrieFagottoII
   %         >>
   %       >>
   %       \new StaffGroup <<
   %         \new Staff \with { \smallStaffDistance } <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-  %           \partCombine \KyrieClarinoI \KyrieClarinoII
+  %           \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
   %         >>
   %         \new GrandStaff \with { \smallGroupDistance } <<
   %           \set GrandStaff.instrumentName = "trb"
@@ -198,23 +198,27 @@
   % }
   \bookpart {
     \section "3" "Sequentia"
-    % \addTocEntry
-    \score { %\articulate
+    \addTocEntry
+    \score {
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine \SequentiaOboeI \SequentiaOboeII
+            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \set Staff.soloIIText = \markup \remark \medium "ob 2"
+            \partCombine #'(0 . 10) \SequentiaOboeI \SequentiaOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \partCombine \SequentiaFagottoI \SequentiaFagottoII
+            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \set Staff.soloIIText = \markup \remark \medium "fag 2"
+            \partCombine #'(0 . 10) \SequentiaFagottoI \SequentiaFagottoII
           >>
         >>
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \SequentiaClarinoI \SequentiaClarinoII
+            \partCombine #'(0 . 10) \SequentiaClarinoI \SequentiaClarinoII
           >>
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "trb"
@@ -284,7 +288,7 @@
         \new FiguredBass { \SequentiaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }
