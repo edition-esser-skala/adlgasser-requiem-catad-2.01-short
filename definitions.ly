@@ -4,6 +4,7 @@
 #(define option-init-toc #t)
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
+\include "articulate_ees.ly"
 
 
 markRequiemDaCapo = {
@@ -17,6 +18,9 @@ markRequiemDaCapo = {
 tempoIntroitus = \tempoMarkup "Moderato non tanto"
   tempoTeDecet = \tempoMarkup "Andantino"
 tempoKyrie = \tempoMarkup "Allegro moderato"
+tempoSequentia = \tempoMarkup "Allegro"
+  tempoLiber = \tempoMarkup "Andantino"
+  tempoLacrimosa = \tempoMarkup "Lento assai"
 
 
 \include "notes/ob1.ly"

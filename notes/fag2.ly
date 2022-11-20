@@ -92,3 +92,12 @@ KyrieFagottoII = {
     c, r c, c c4 r\fermata \bar "|." %29 finis
   }
 }
+
+SequentiaFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSequentia
+    % \twofourtime \key g \major \time 2/4 \tempoLiber \newSpacingSection
+    % \key c \minor \time 4/4 \tempoLacrimosa \newSpacingSection
+  }
+}

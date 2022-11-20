@@ -151,91 +151,471 @@ KyrieSopranoLyrics = \lyricmode {
   i -- son. %28 finis
 }
 
+SequentiaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSequentia
+    r2 r4 \mvTr c'8\f^\tutti c
+    c1
+    c4 r r e8 c
+    a2( g)
+    g4 r r2 %5
+    R1
+    r2 r4 c8\f e
+    d4 d2 c8 d
+    h4 h g' h,
+    c4. d16([ e)] f4 a, %10
+    h h r e8 c
+    a4. a8 h4. h8
+    c1~
+    c2 h
+    c4 r r2 %15
+    r e4 e
+    e1
+    e
+    e2 e
+    dis1 %20
+    e4 r e\p e
+    e1
+    d!4 r d d
+    d1
+    c4 r r2 %25
+    b\fp a
+    gis\fp a
+    a4.\f a8 a4 a
+    a2( gis)
+    a4 r r2 %30
+    R1
+    f'2\f c
+    a4 c a f
+    c1\mf
+    c2. c8\f c' %35
+    h!4. h8 b4. c8
+    a4 a r f'8 e
+    \appoggiatura e d4^\critnote d2 c8 d
+    h!4 h r b8 c
+    a4 a a b8([ g)] %40
+    f2( e)
+    f4^\critnote r r2
+    R1
+    r2 d'4 d
+    cis2\fp c %45
+    h! b
+    b1\f
+    a\fermata
+    g2\mf c
+    b4 g r2 %50
+    g d'
+    h!4.\f h8 h4 h
+    c c r c8 e
+    f([ e)] d([ c)] h([ a)] g([ f)]
+    e4 e r e'8 c %55
+    a4 a r e'8 c
+    a4 a r e'8 c
+    a4. a8 h4 h
+    c1~
+    c2 h %60
+    c4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \twofourtime \key g \major \time 2/4 \tempoLiber \newSpacingSection
+      R2*8 %70
+    \mvTr d4.\pE^\solo fis,8
+    a g r4
+    g'4. h,8
+    d c r4
+    r8 d~ d16[ h] c([ e)] %75
+    cis8( d4) g16([ d)]
+    d([ c] h4) c16([ a)]
+    g([ d)] d8 r4
+    r c'8 a
+    h h r4 %80
+    r e8. cis16
+    cis([ d)] d8 r4
+    R2
+    r8 d,~ d16[ fis] a([ c)]
+    h8. d16 c16.([ h32)] a16.([ g32)] %85
+    d'8 d, r4
+    a'~ a16[ h] cis([ d)]
+    a4~ a16[ cis] e([ g)]
+    fis4( g16[ e)] g([ e)]
+    d4( e) %90
+    d r
+    r \mvTr d8\f^\tutti a
+    h2
+    a4 d8 fis,
+    g2 %95
+    fis4 r
+    r d'8 d
+    c!8. c16 c8 c
+    h h h h
+    h4( ais) %100
+    h fis'8. fis16
+    dis8 dis dis dis
+    e h e4
+    r fis
+    r8 g4 dis8 %105
+    e2
+    e8 e4 e8
+    e4( dis)
+    e r
+    R2*25 %134
+    r4 \mvTr a,8\f^\tutti a %135
+    cis2
+    d4 r8 d
+    b8. b16 b8 a
+    gis a r4
+    a\p h! %140
+    cis d
+    e8\f g! g4
+    f4 r
+    R2
+    g,4\p a %145
+    h c
+    d8\f f f4
+    e g16([ e)] d([ c)]
+    h4 r
+    r g'16([ e)] d([ c)] %150
+    h4 r
+    r8 c c c
+    c4( h)
+    c r
+    R2*42 %196
+    r4 \mvTr d8\f^\tutti d
+    d2
+    cis4 cis8 fis
+    dis2 %200
+    e4 e8. d16
+    cis8 d e fis
+    fis e r4
+    a,4. d16([ h)]
+    a4. d16([ h)] %205
+    a8 g g4
+    fis r
+    R2*5 %212
+    r8 a4 h8
+    cis a h cis
+    d2~ %215
+    d
+    cis8 cis4 d8
+    e cis d e
+    a,4 a
+    r8 d4 cis8 %220
+    h cis16([ d)] e4~
+    e8 a, d4~
+    d cis
+    d r
+    R2*3 %227
+    \mvTr d4\pE^\solo r
+    d r
+    b r %230
+    b r
+    a r
+    a r
+    gis r
+    g r %235
+    g r
+    f r
+    f r
+    e r
+    e r %240
+    R2
+    a4 cis
+    e8 a, a h!16([ cis)]
+    d8 a fis'!16([ d)] cis([ h)]
+    \appoggiatura a4 g2 %245
+    fis4 r
+    R2*3
+    r4 d'8. e16 %250
+    d8.([ c16)] c4
+    r c8. d16
+    c8.([ h16)] h4
+    r h8. c16
+    h8.([ a16)] a4 %255
+    r8 a4 a8
+    a h a4
+    g r
+    R2*3 %261
+    \mvTr d'4.\f^\tutti fis,8
+    a g r4
+    g'4. h,8
+    d c r4 %265
+    d,4 d
+    d d'
+    c8( h4) a8
+    g16([ fis)] g8 r4
+    c4. a8 %270
+    h h r4
+    e c8([ cis)]
+    cis16([ d16)] d8 d g
+    e4 d
+    c h %275
+    h8 a a h
+    h a a d
+    cis4 c
+    h r8 d
+    h g r d' %280
+    h g h c
+    h4( a)
+    g r \noBreak
+    R2\fermata \bar "||"
+    \key c \minor \time 4/4 \tempoLacrimosa \newSpacingSection
+      \mvTr c\f^\tutti c \noBreak %285
+    h c
+    d4 es c2
+    h4 r r8 g4 a16([ h)]
+    c8 g r g f'8. f16 f8 d
+    es c r4 r2 %290
+    R1*6 %296
+    r2 d4 es
+    as, g d' es
+    as, g r2
+    c4.\p c8 b4. es8 %300
+    es4 f, f2
+    es4 r es'4.\f es8
+    des2 c4 r
+    r2 f4. f8
+    es!2 d!4 r %305
+    g\p f! es d
+    c8. g16 g4 r2
+    g'4 f es8. f16 d4
+    c\f c c2
+    c c4.\p c8 %310
+    c2 c4.\f d8
+    h g c2( h4)
+    c r r2
+    R1\fermata \bar "|." %314 finis
+  }
+}
 
-% Ky -- ri -- e e -- lei -- son.
-% Chri -- ste e -- lei -- son.
-% Ky -- ri -- e e -- lei -- son.
+SequentiaSopranoLyrics = \lyricmode {
+  Di -- es
+  ir --
+  ae, di -- es
+  il --
+  la %5
+
+  sol -- vet
+  sae -- clum in fa --
+  vil -- la: Te -- ste
+  Da -- vid cum Si -- %10
+  byl -- la, te -- ste
+  Da -- vid cum Si --
+  byl --
+  _
+  la. %15
+  Quan -- tus
+  tre --
+  mor
+  est fu --
+  tu -- %20
+  rus, quan -- do
+  iu --
+  dex est ven --
+  tu --
+  rus, %25
+  cun -- cta
+  stri -- cte,
+  stri -- cte dis -- cus --
+  su --
+  rus. %30
+
+  Tu -- ba
+  mi -- rum spar -- gens
+  so --
+  num per se -- %35
+  pul -- cra re -- gi --
+  o -- num co -- get
+  o -- mnes an -- te
+  thro -- num, co -- get
+  o -- mnes an -- te __ %40
+  thro --
+  num.
+
+  Mors stu --
+  pe -- bit %45
+  et na --
+  tu --
+  ra,
+  cum re --
+  sur -- get, %50
+  cum re --
+  sur -- get cre -- a --
+  tu -- ra, iu -- di --
+  can -- ti __ re -- spon --
+  su -- ra, iu -- di -- %55
+  can -- ti re -- spon --
+  su -- ra, iu -- di --
+  can -- ti re -- spon --
+  su --
+  _ %60
+  ra.
+
+  Li -- ber %71
+  scri -- ptus
+  pro -- fe --
+  re -- tur,
+  in __ quo %75
+  to -- tum
+  con -- ti --
+  ne -- tur,
+  in quo
+  to -- tum %80
+  con -- ti --
+  ne -- tur,
+
+  un -- de __
+  mun -- dus iu -- di -- %85
+  ce -- tur,
+  un -- de __
+  mun -- dus
+  iu -- di --
+  ce -- %90
+  tur.
+  Iu -- dex
+  er --
+  go cum se --
+  de -- %95
+  bit,
+  quid -- quid
+  la -- tet ap -- pa --
+  re -- bit, ap -- pa --
+  re -- %100
+  bit: Nil in --
+  ul -- tum re -- ma --
+  ne -- bit, nil,
+  nil,
+  nil in -- %105
+  ul --
+  tum re -- ma --
+  ne --
+  bit.
+
+  Rex tre -- %135
+  men --
+  dae, tre --
+  men -- dae ma -- ie --
+  sta -- tis,
+  qui sal -- %140
+  van -- dos
+  sal -- vas gra --
+  tis,
+
+  qui sal -- %145
+  van -- dos
+  sal -- vas gra --
+  tis: Sal -- va
+  me,
+  sal -- va %150
+  me,
+  fons pi -- e --
+  ta --
+  tis.
+
+  Iu -- ste %197
+  iu --
+  dex ul -- ti --
+  o -- %200
+  nis, iu -- ste
+  iu -- dex ul -- ti --
+  o -- nis,
+  do -- num
+  fac re -- %205
+  mis -- si -- o --
+  nis,
+
+  an -- te %213
+  di -- em ra -- ti --
+  o -- %215
+
+  nis, an -- te
+  di -- em ra -- ti --
+  o -- nis,
+  an -- te %220
+  di -- em ra --
+  ti -- o --
+  _
+  nis.
+
+  In -- %228
+  ge --
+  mi -- %230
+  sco,
+  tam --
+  quam
+  re --
+  us, %235
+  tam --
+  quam
+  re --
+  _
+  us: %240
+
+  Cul -- pa
+  ru -- bet vul -- tus
+  me -- us, vul -- tus
+  me -- %245
+  us:
+
+  Sup -- pli -- %250
+  can -- ti
+  par -- ce
+  De -- us,
+  sup -- pli --
+  can -- ti %255
+  par -- ce,
+  par -- ce De --
+  us.
+
+  Qui Ma -- %262
+  ri -- am
+  ab -- sol --
+  vi -- sti, %265
+  et la --
+  tro -- nem
+  ex -- au --
+  di -- sti,
+  mi -- hi %270
+  quo -- que
+  spem de --
+  di -- sti, mi -- hi
+  quo -- que
+  spem de -- %275
+  di -- sti, spem de --
+  di -- sti, mi -- hi
+  quo -- que
+  spem de --
+  di -- sti, de -- %280
+  di -- sti, spem de --
+  di --
+  sti.
+
+  La -- cri -- %285
+  mo -- sa
+  di -- es il --
+  la, qua re --
+  sur -- get, re -- sur -- get ex fa --
+  vil -- la %290
+
+  iu -- di -- %297
+  can -- dus ho -- mo
+  re -- us,
+  iu -- di -- can -- dus %300
+  ho -- mo re --
+  us: Hu -- ic
+  er -- go
+  par -- ce
+  De -- us. %305
+  Pi -- e Ie -- su
+  Do -- mi -- ne,
+  Ie -- su Do -- mi -- ne,
+  do -- na e --
+  i re -- qui -- %310
+  em, a -- men,
+  a -- men, a --
+  men. %313 finis
+}
 
 
-% # Sequentia
-
-% Di -- es ir -- ae, di -- es il -- la
-% sol -- vet sae -- clum in fa -- vil -- la:
-% Te -- ste Da -- vid cum Si -- byl -- la.
-
-% Quan -- tus tre -- mor est fu -- tu -- rus,
-% quan -- do iu -- dex est ven -- tu -- rus,
-% cun -- cta stri -- cte dis -- cus -- su -- rus.
-
-% Tu -- ba mi -- rum spar -- gens so -- num
-% per se -- pul -- cra re -- gi -- o -- num
-% co -- get o -- mnes an -- te thro -- num.
-
-% Mors stu -- pe -- bit et na -- tu -- ra,
-% cum re -- sur -- get cre -- a -- tu -- ra,
-% iu -- di -- can -- ti re -- spon -- su -- ra.
-
-% Li -- ber scri -- ptus pro -- fe -- re -- tur,
-% in quo to -- tum con -- ti -- ne -- tur,
-% un -- de mun -- dus iu -- di -- ce -- tur.
-
-% Iu -- dex er -- go cum se -- de -- bit,
-% quid -- quid la -- tet ap -- pa -- re -- bit:
-% Nil in -- ul -- tum re -- ma -- ne -- bit.
-
-% Quid sum mi -- ser tunc di -- ctu -- rus?
-% Quem pa -- tro -- num ro -- ga -- tu -- rus,
-% cum vix iu -- stus sit se -- cu -- rus?
-
-% Rex tre -- men -- dae ma -- ie -- sta -- tis,
-% qui sal -- van -- dos sal -- vas gra -- tis:
-% Sal -- va me, fons pi -- e -- ta -- tis.
-
-% Re -- cor -- da -- re Ie -- su pi -- e,
-% quod sum cau -- sa tu -- ae vi -- ae:
-% Ne me per -- das il -- la di -- e.
-
-% Quae -- rens me, se -- di -- sti las -- sus:
-% Re -- de -- mi -- sti cru -- cem pas -- sus:
-% Tan -- tus la -- bor non sit cas -- sus.
-
-% Iu -- ste iu -- dex ul -- ti -- o -- nis,
-% do -- num fac re -- mis -- si -- o -- nis,
-% an -- te di -- em ra -- ti -- o -- nis.
-
-% In -- ge -- mi -- sco, tam -- quam re -- us:
-% Cul -- pa ru -- bet vul -- tus me -- us:
-% Sup -- pli -- can -- ti par -- ce De -- us.
-
-% Qui Ma -- ri -- am ab -- sol -- vi -- sti,
-% et la -- tro -- nem ex -- au -- di -- sti,
-% mi -- hi quo -- que spem de -- di -- sti.
-
-% Pre -- ces me -- ae non sunt di -- gnae:
-% Sed tu bo -- nus fac be -- ni -- gne,
-% ne per -- en -- ni cre -- mer i -- gne.
-
-% In -- ter o -- ves lo -- cum prae -- sta,
-% et ab hae -- dis me se -- que -- stra,
-% sta -- tu -- ens in par -- te dex -- tra.
-
-% Con -- fu -- ta -- tis ma -- le -- di -- ctis,
-% flam -- mis a -- cri -- bus ad -- di -- ctis,
-% vo -- ca me cum be -- ne -- di -- ctis.
-
-% O -- ro sup -- plex et ac -- cli -- nis,
-% cor con -- tri -- tum qua -- si ci -- nis:
-% Ge -- re cu -- ram me -- i fi -- nis.
-
-% La -- cri -- mo -- sa di -- es il -- la,
-% qua re -- sur -- get ex fa -- vil -- la
-% iu -- di -- can -- dus ho -- mo re -- us:
-% Hu -- ic er -- go par -- ce De -- us.
-% Pi -- e Ie -- su Do -- mi -- ne,
-% do -- na e -- is re -- qui -- em. A -- men.
-
-
-% # Offertorium
 
 % Do -- mi -- ne Ie -- su Chri -- ste, Rex glo -- ri -- ae,
 % li -- be -- ra a -- ni -- mas o -- mni -- um fi -- de -- li -- um de -- fun -- cto -- rum

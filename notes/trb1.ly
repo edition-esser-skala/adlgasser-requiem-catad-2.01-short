@@ -53,3 +53,11 @@ KyrieTromboneI = {
     R1\fermata \bar "|." %29 finis
   }
 }
+
+SequentiaTromboneI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    
+  }
+}

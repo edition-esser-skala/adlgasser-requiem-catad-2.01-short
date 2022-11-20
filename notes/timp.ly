@@ -54,3 +54,12 @@ KyrieTimpani = {
     c c16 c c8 c c4 r\fermata \bar "|." %29 finis
   }
 }
+
+SequentiaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSequentia
+    % \twofourtime \time 2/4 \tempoLiber \newSpacingSection
+    % \time 4/4 \tempoLacrimosa \newSpacingSection
+  }
+}

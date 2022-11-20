@@ -123,3 +123,326 @@ KyrieViolinoII = {
     c e, c c c4 r\fermata \bar "|."
   }
 }
+
+SequentiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    c8[\f r16 c32( d] e8[) r16 e32( f] g8[) r16 \tuplet 3/2 16 { g32( a h] } c8^[) c]
+    c8[ r16 c,32( d] e8[) r16 e32( f] g8[) r16 \tuplet 3/2 16 { g32( a h] } c8^[) c]
+    c16 e c g e g e c c' e c g e g e c
+    f8 f f f f16 f f f f f f f
+    e8[ e]\p e r r c' c4 %5
+    r8 d, d4 r16 h'32( c) d16 c h-! a-! g-! f-!
+    e8[ r16 \tuplet 3/2 16 { g32\f a h] } c8 c c16 g a h c e g e
+    d8 <a d,>4 q q q8
+    d,16 g fis e d c h a g a h c d e fis g
+    a a h c d e f! g a4 r16 f, a f %10
+    d g a h c d e f g4 r16 e, g e
+    c8 c c c f f f f
+    e g4 g8 a f d d
+    <e g,> q q q <d g,> q q q
+    c[ r16 c32( d] e8[) r16 e32( f] g8[) r16 \tuplet 3/2 16 { g32( a h] } c8^[) c] %15
+    c,16 g' g g g g g g g g g g g g g g
+    gis gis gis gis gis gis gis gis gis gis gis gis gis gis gis gis
+    a a a a a a a a a a a a a a a a
+    h\fz h h h h h h h a\fz a a a a a a a
+    a\fz a a a a a a a a a a a a a a a %20
+    gis\fp gis gis gis gis gis gis gis gis gis gis gis gis gis gis gis
+    g g g g g g g g g g g g g g g g
+    fis <fis a> q q q q q q q q q q q q q q
+    f f f f f f f f f f f f f f f f
+    e e e e e e e e e e e e e e e e %25
+    f\fpE f-\critnote f f f f f f e e e e e e e e
+    d\fpE d d d d d d d c( e) e-! e-! e e e e
+    f(\f c) c-! c-! c c c c c( a') a-! a-! f( a) a-! a-!
+    e( a) a-! a-! a a a a gis( h) h-! h-! h h h h
+    a8[ r16 a,32( h] c8[) r16 c32( d] e8[) r16 \tuplet 3/2 16 { e32( fis gis] } a8) a %30
+    a[ r16 f32( g] a8[) r16 a32_( b] c8[) r16 \tuplet 3/2 16 { c32( d e] } f8) f
+    f4 r r2
+    R1
+    c,16(\fp e g e) c( e g e) c(\fp f a f) c( f a f)
+    c( e g e) c( f a f) c( e g e) c'8-!\f e-! %35
+    f( h,!) r h \once \slurDashed g'( b,) g16( a b c)
+    a( c b a) b( c d e) f4 r
+    f,8 f f f e e e e
+    d16 h!32( c) d16-! e-! f8 r e16 c32( d) e16-! f-! g8 r
+    r f4 f f8-! d([ b)] %40
+    a16 a a a a a a a g g' g g g g g g
+    f8[ r16 f32( g] a8[) r16 a32_( b] c8[) r16 \tuplet 3/2 16 { c32( d e] } f8) f
+    f[ r16 d,32( e] f8[) r16 f32_( g] a8[) r16 \tuplet 3/2 16 { a32( h! cis] } d8) d
+    d[ r16 \tuplet 3/2 16 { a32 h cis] } d8 d-! d d, r4
+    r8 cis'(\p e g) r c,( fis a) %45
+    r h,!( d g) r b,( d g)
+    r b,(\f g) g-! r g'( g,) g-!
+    es8. es16 es8 es es2\fermata
+    d1~\mf
+    d2 es( %50
+    d) r8 g( a b)
+    r <h d,>4\f q q q8
+    r <c e,!>4 <c e,> q <c e>8
+    a a4 a8 h h4 h8
+    c16 c d e f g a h c8[ r16 c,] e( c g c) %55
+    a4 r r8. c16 e( c g c)
+    a4 r r8. c16 e( c g c)
+    a8 f'4 f h, h8
+    c c4 c c c8
+    c16 c c c c c c c h h h h h h h h %60
+    c8[ r16 c,32( d] e8[) r16 e32( f] g8[) r16 \tuplet 3/2 16 { g32( a h] } c8^[) c] \noBreak
+    c4 <e, g,>8. q16 q4 r\fermata \bar "||"
+    \twofourtime \key g \major \time 2/4 \tempoLiber \newSpacingSection
+      \once \slurDashed d'4.(\f fis,8) \noBreak
+    a( g) r4
+    \once \slurDashed g'4.( h,8) %65
+    d( c) r16 \appoggiatura d32 c( h) \parOn c16[-\parenthesize-! \parOff e]-\parenthesize-!
+    cis8( d) r16 \tuplet 3/2 16 { d32 c h } c16[-! e]-!
+    cis8( d) r16 \appoggiatura { c32[ h a] } h16( d h)
+    h16( a) g8~ g16 g( a fis)
+    g8 h, g4 %70
+    d''4.\p( fis,8)
+    a( g) r4
+    g'4.( h,8)
+    d( c) r16 \appoggiatura d32 c h c16[-! e]-!
+    cis8( d) r16 \tuplet 3/2 16 { d32 c h } c16[-! e]-! %75
+    cis8( d) r16 \appoggiatura { c32 h a } h16( d h)
+    h( a) g8~ g16 g( a fis)
+    a32( g fis g) d8 r4
+    e4(\fp fis)
+    g32( fis g a) g8 h32( a h c) h8 %80
+    c4(\fp a)
+    ais8( h) r4
+    g4.\p gis8
+    a( fis) r fis
+    g8[ r16 d']\f c16. h32 a16. g32 %85
+    d'8 d,16. d'32 d,8 e16.(\trill d64 e)
+    fis16(\p a) fis-! fis-! fis8 r
+    e16( cis') a-! a-! a8 r
+    fis16( d') d-! d-! d,( g h g)
+    fis fis fis fis e e e e %90
+    d8\f d4 cis8
+    d r r16 a''-! fis-! d-!
+    <d, h'>4 r16 g'-! d-! h-!
+    <a d,>4 r16 a-! fis-! d-!
+    h h8 h16 cis cis8 cis16 %95
+    d8 r r16 fis32([ a)] d16-! a32( d)
+    fis16 d8 a16 d a8 fis16
+    a fis8 a fis a16
+    g e8 g16~ g e( dis fis)
+    e g8 g16 g ais,8 ais16 %100
+    h4 r16 dis'-! h-! fis-!
+    dis4 r16 h'-! fis-! dis-!
+    e4 r
+    r16 dis'( cisis dis cisis dis e fis)
+    h,4 r %105
+    r16 e( c! e) c( e, h' d)
+    c( e c a) h( e, c' a)
+    g g g g fis fis fis fis
+    e8 \once \slurDashed h''4( dis,8)
+    fis( e) r4 %110
+    \once \slurDashed e4.( g,8)
+    h( a) r16 \appoggiatura h32 a( gis) a16[-! c]-!
+    \once \slurDashed ais8( h) r16 \tuplet 3/2 8 { h32 a g } a16[-! c]-!
+    ais8( h) r16 g(\slashturn h g)
+    g( fis) e4 dis8
+    e h''4(\p dis,8)
+    fis( e) r4
+    e4.( g,8)
+    h( a) r16 \appoggiatura h32 a( gis) a16[-! c]-!
+    \once \slurDashed ais8( h) r16 \tuplet 3/2 8 { h32 a g } a16[-! c]-! %120
+    ais8( h) r16-\critnote g( h g)
+    \appoggiatura g16 fis8( e4) dis8
+    e8 r r16  \appoggiatura fis'32 e( dis) e16[-! h]-!
+    gis8 r r16 e'-! h-! gis-!
+    a4 r16 c-! a-! f-! %125
+    e gis8 gis16~ gis h( a gis)
+    a8( gis) e16\f d c h
+    a8 r r4
+    r16 d'!(\p cis d) cis( d) e32( d c h)
+    c8 r r4 %130
+    r16 h' ais( h) ais( h) d,( h)
+    c( a) c-! c-! c8 r
+    r16 c c c c8 r
+    f, d e r
+    a16\f a a a a a a a %135
+    b b b b b b b b
+    a( d) d-! d-! d( f) f-! f-!
+    <d b'>8. f16 f8 f
+    f-! e-! r4
+    R2 %140
+    a,16\p a a a h! h h h
+    cis8\f \appoggiatura f32 e( d e f) e16( cis e cis)
+    d-! f32( g) a16-! g-! f-! e-! d-! cis-!
+    d-! d32( e) f16-! e-! d-! c-! h-! a-!
+    g4\p r %145
+    g16 g g g a a a a
+    h8\f \appoggiatura c32 h( a h c) d16( h d h)
+    c8 r r4
+    r16 g, h d f16.(\trill e64 f) g16[-! f]-!
+    e8 r r4 %150
+    r16 g, h d f16.(\trill e64 f) g16[-! f]-!
+    e8 c'4 c8
+    c16 c c c h h h h
+    c8 g,16(\p c) c( e) e( g)
+    g4.( h8) %155
+    \once \slurDashed d( c) r4
+    c'4.( e,8)
+    \once \slurDashed g( f) r16 \appoggiatura g32 f(^\critnote e) f16[-! a]-!
+    fis8( g) r16 \appoggiatura g32 f( e) f16[-! a]-!
+    fis8( g) r16 e\slashturn( g e) %160
+    e( d) c4( h8)
+    c16 c\f h a g f e d
+    c8 c'-!\p c( fis,)
+    r h-! h( g)
+    r e16 e fis( d) a'-! a-! %165
+    a16.[ fis32 g16 r32 g]\f g,8 a\trill
+    h16( h')\p h-! h-! h8 r
+    a16( d) d-! d-! d8 r
+    h16( d) d-! d-! g,( c e c)
+    h h h h a a a a %170
+    g8 d16( g) g( h) h( d)
+    d4.( fis,8)
+    a( g) r e'(
+    a,) g-! fis-! e-!
+    d-! fis(\f e d) %175
+    cis e'4(\p gis,8)
+    h( a) r fis'(
+    e) d!-! cis-! h-!
+    a g!(\f fis e)
+    d fis'4(\p ais,8) %180
+    cis( h) r4
+    h'4.(\f d,8)
+    fis( e) r16 \appoggiatura fis32 e(\pE dis) e16[-! g]-!
+    \once \slurDashed eis8( fis) r16 \tuplet 3/2 8 { fis32 e dis } e16[-! g]-!
+    eis8( fis) r16 d(\slashturn fis d) %185
+    d( cis) h4( ais8)
+    h16 fis gis ais h ais h cis
+    d4 r
+    fis, e'32( cis16.) e32( cis16.)
+    d4 r %190
+    r fis,16 fis8 gis16
+    ais32( gis ais h) ais8 r4
+    r16 fis-! fis-! fis-! fis8 r
+    r16 fis-! fis-! fis-! fis8 r
+    r16 h( ais h) h h8 h16 %195
+    h h h h ais ais ais ais
+    h16. h,32\f d16. fis32 h16. fis32 h16. h32
+    h16.( eis,32) eis8-! r16. eis32 eis16. eis32
+    fis16.( cis32) cis8-! r16. cis'32 cis16. cis32
+    c16.( fis,32) fis8-! r16. c'32 c16. c32 %200
+    h16.[ e,32 e16 r32 h'] h16.[ h,32 h16 r32 h']
+    e,16( a) a-! a-! cis cis d d
+    d cis32( d) cis16[-! cis]-! cis8 r
+    <a fis' d'>4 r
+    q r %205
+    r8 e'-! e-! e-!
+    d16 d, e fis g a h cis
+    d4 r
+    <fis a, d,>4 r
+    r8 e,-! e-! e-! %210
+    d d4 e8
+    fis d fis gis
+    a2~
+    a8 cis, d e
+    a, fis'4 g8 %215
+    a fis a h
+    e,4 r
+    R2
+    r8 fis'4 g8
+    a2 %220
+    g8 fis e4~
+    e8 a, d4~
+    d8 d cis cis
+    d d,(-.\p d-. d-.)
+    r d(-. d-. d-.) %225
+    r d(-. d-. d-.)
+    r cis(-. cis-. cis-.)
+    r d(-. d-. d-.)
+    r fis(-. fis-. fis-.)
+    r fis(-. fis-. fis-.) %230
+    r g(-. g-. g-.)
+    r g(-. g-. g-.)
+    r f(-. f-. f-.)
+    r d(-. d-. d-.)
+    r d(-. d-. d-.) %235
+    r cis(-. cis-. cis-.)
+    r d(-. d-. d-.)
+    r d(-. d-. d-.)
+    r d(-. d-. d-.)
+    r cis(-. cis-. cis-.) %240
+    r d(-. d-. d-.)
+    cis4 r
+    cis'2\fp
+    d8 d d fis!
+    h,4( cis) %245
+    d8 fis,32(\f e fis g) fis8 r
+    a2\fp
+    h8 d d d
+    d4( c!)
+    h8 h' h h %250
+    h a16. h32 a8 r
+    r a a a
+    a g16. a32 g8 r
+    r g g g
+    g2~ %255
+    g8 g4 g8
+    fis16 fis g g g g fis fis
+    g8 \appoggiatura a,32 g(\fE fis g a) g8 r
+    g4. gis8
+    a( fis) r fis %260
+    g g,16. c32 h8 a
+    g d''4( fis,8)
+    a( g) r4
+    g'4.( h,8)
+    d( c) r16 \appoggiatura d32 c([ h)] c16-! e-! %265
+    cis8( d) r16 \tuplet 3/2 8 { d32 c h } c16[-! e]-!
+    cis8( d) r16 h( d h)
+    h( a) g8~ g16 g( a fis)
+    a32( g fis g) d8 r4
+    e( fis) %270
+    \appoggiatura a32 \once \slurDashed g( fis g a) g8 r4
+    c4( a)
+    \once \slurDashed ais8( h) r4
+    g4.( h8)
+    e, fis g4~ %275
+    g16 g8 g16 g g g g
+    g fis32( g) fis16-! fis-! fis \appoggiatura e'32 d( cis) d16-! fis-!
+    g( cis,) cis-! cis-! a'( c,) c-! c-!
+    h8 r r16 a'( fis d)
+    h8 r r16 a'( fis d) %280
+    h g'8 g16~ g g( e c)
+    h h h h a a a a
+    g8 g4 fis8 \noBreak
+    g <h d, g,> q4\fermata \bar "||"
+    \key c \minor \time 4/4 \tempoLacrimosa \newSpacingSection
+      \tuplet 6/4 4 { c,16-!\fE es-! g-! c[-! g-! es]-! c-! es-! g-! c[-! g-! es]-! r f-! as-! c-! as-! f-! r f-! as-! c-! as-! f-! \noBreak %285
+    r h d f d h r h d f d h r g c es c g r g c es c g
+    r g d' f d g, r g c es c g r g c es c g r fis c' es c fis,
+    r g h d h g r g h d h g r h d g d h r h d g d h
+    r g c es c g r c es g es c r c d f d c r h d f d h
+    r c es g es c r g c es c g r e g c g e r e g e' g, e %290
+    r f as c as f r f as c as f r f g b g f r e g b g e
+    r f as c as f r f as c as f r a c f c a r a c f c a
+    r f b d! b f r b d f d b r b c es c b r a c es c a
+    r b d f d b r f b d b f r d f b f d r d f b f d
+    r b es g es b r es g b g es r es f as f es r d f as f d %295
+    r es g b g es r g b es b g r f c' f c f, r f c' es c f,
+    r f b d b f r g b es b g r d' f as f d r b es g es b
+    r as d f d as r g b es b g r d' f as f d r b es g es b
+    r as d f d as r g b es b g r f as d as f r g b es b g
+    r es\p as c as es r es as c as es r es g b g es r es g b g es %300
+    r es as c as es r es f c' f, es r es f b f es r d f b f d
+    r es g b g es r es g b g es r es\f b' es b es, r es b' es b es,
+    r f b des b f r f b des b f r g b c b g r g b c b g
+    r f as c as f r f as c as f r f c' f c f, r f c' f c f,
+    r g c es! c g r g c es c g r a c d! c a r a c d c a %305
+    r g\p h d h g r h d g d h r c es g es c r h d f d h
+    r g c es c g r f h d h f r es g c g es r d f h f d
+    r g es' g es g, r h d f d h r g c es c g r g h d h g
+    r g\f c es c g r g c es c g r c es c' es, c r c es c' es, c
+    r g c es c g r g c es c g r c\p es c' es, c r c es c' es, c %310
+    r g c es c g r g c es c g r as\f c f c as r c d a' d, c
+    r g h d h g r g c es c g r g c d c g r g h d h g
+    r es-\markup \remark "smorzando" g c g es r d f as f d r c\p es g es c r h d f d h }
+    c8\pp g c g c4 r\fermata \bar "|." %314 finis
+  }
+}

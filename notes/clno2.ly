@@ -55,3 +55,12 @@ KyrieClarinoII = {
     e e c c c4 r\fermata \bar "|." %29 finis
   }
 }
+
+SequentiaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    % \twofourtime \time 2/4 \tempoLiber \newSpacingSection
+    % \time 4/4 \tempoLacrimosa \newSpacingSection
+  }
+}
