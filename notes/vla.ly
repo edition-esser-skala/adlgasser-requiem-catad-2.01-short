@@ -650,3 +650,42 @@ OffertoriumViola = {
     a <a f> q4\fermata \markQuamDaCapo \bar "||" %166 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoSanctus
+    c4\f r r
+    c c c
+    c r r
+    c c c
+    c r r %5
+    g'8\f g g g g g
+    f f d d e e
+    a a g g g g
+    g4 r c,
+    c r d %10
+    g,8[ r16 g'] fis16( g fis e) d( c h a)
+    g4 r r
+    g' g g
+    g r r
+    g g g %15
+    g8 g g g e e
+    e e d d d d
+    e e d d d d
+    d4 r g,
+    g r c \noBreak %20
+    f,8 a g4 g \bar "||"
+    \time 4/4 \tempoSanctusB c8 g c r d g, d' r \noBreak
+    g8\p g4 g g g8
+    g4 r8 d( g,) c c c
+    a'16 a a a g g g g c,8\f c' c, c' %25
+    c4 b a8 f' f, d'
+    d4 c h8 g' g,, g'
+    a4~ a16 f e d g4~ g16 e d c
+    f4~ f16 d c h e4~ e16 c d e
+    f d e f g8 g, c b' a g %30
+    f4 e f2\fermata
+    c8 c' c, c c4 r\fermata \bar "|." %32 finis
+  }
+}

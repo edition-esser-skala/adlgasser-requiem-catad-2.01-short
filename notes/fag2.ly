@@ -484,3 +484,42 @@ OffertoriumFagottoII = {
     f,4 r\fermata \markQuamDaCapo \bar "||" %166 finis
   }
 }
+
+SanctusFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    c2.\f
+    c2 r4
+    c2.
+    c2 r4
+    R2. %5
+    g'\f
+    f4 d e
+    f g g,
+    c r8 e4 e8
+    f4 r fis %10
+    g r r
+    g2.~
+    g2 d'4
+    g,2.~
+    g~ %15
+    g4 g e
+    c a h
+    c d2
+    g,4 r8 h4 h8
+    c4 r e \noBreak %20
+    f g g, \bar "||"
+    c8 c c r r d d r \noBreak
+    e r r4 r2
+    R1
+    r2 r8 c4\f c8 %25
+    c4 b a r8 d
+    d4 c h r8 g'
+    a4~ a16 f e d g4~ g16 e d c
+    f4~ f16 d c h e4~ e16 c d e
+    f d e f g8 g, c b' a g %30
+    f4 f f2\fermata
+    c8 c c c c4 r\fermata \bar "|." %32 finis
+  }
+}

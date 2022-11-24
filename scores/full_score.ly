@@ -291,8 +291,103 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Offertorium"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "ob 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "ob 2"
+  %           \partCombine #'(0 . 10) \OffertoriumOboeI \OffertoriumOboeII
+  %         >>
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "fag 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "fag 2"
+  %           \partCombine #'(0 . 10) \OffertoriumFagottoI \OffertoriumFagottoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine #'(0 . 10) \OffertoriumClarinoI \OffertoriumClarinoII
+  %         >>
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OffertoriumTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OffertoriumTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         \OffertoriumTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OffertoriumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OffertoriumViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OffertoriumViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \OffertoriumSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \OffertoriumSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \OffertoriumAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \OffertoriumAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \OffertoriumTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \OffertoriumTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \OffertoriumBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \OffertoriumBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \OffertoriumOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OffertoriumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Offertorium"
+    \section "5" "Sanctus"
     \addTocEntry
     \score {
       <<
@@ -301,89 +396,89 @@
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "ob 1"
             \set Staff.soloIIText = \markup \remark \medium "ob 2"
-            \partCombine #'(0 . 10) \OffertoriumOboeI \OffertoriumOboeII
+            \partCombine #'(0 . 10) \SanctusOboeI \SanctusOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "fag 1"
             \set Staff.soloIIText = \markup \remark \medium "fag 2"
-            \partCombine #'(0 . 10) \OffertoriumFagottoI \OffertoriumFagottoII
+            \partCombine #'(0 . 10) \SanctusFagottoI \SanctusFagottoII
           >>
         >>
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \OffertoriumClarinoI \OffertoriumClarinoII
+            \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OffertoriumTromboneI
+              \SanctusTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OffertoriumTromboneII
+              \SanctusTromboneII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          \OffertoriumTimpani
+          \SanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OffertoriumViolinoI
+              \SanctusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OffertoriumViolinoII
+              \SanctusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OffertoriumViola
+            \SanctusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \OffertoriumSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \OffertoriumSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \OffertoriumAlto }
+            \new Voice = "Alto" { \dynamicUp \SanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \OffertoriumAltoLyrics
+          \new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \OffertoriumTenore }
+            \new Voice = "Tenore" { \dynamicUp \SanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \OffertoriumTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \OffertoriumBasso }
+            \new Voice = "Basso" { \dynamicUp \SanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \OffertoriumBassoLyrics
+          \new Lyrics \lyricsto Basso \SanctusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \OffertoriumOrgano
+            \SanctusOrgano
           }
         >>
-        \new FiguredBass { \OffertoriumBassFigures }
+        \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

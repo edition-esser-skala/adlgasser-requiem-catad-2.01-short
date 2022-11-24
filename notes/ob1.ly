@@ -501,3 +501,42 @@ OffertoriumOboeI = {
     f4 r\fermata \markQuamDaCapo \bar "||" %166 finis
   }
 }
+
+SanctusOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    g'2\f a4
+    a g r
+    e'2 f4
+    f e r
+    R2. %5
+    e\f
+    f2 e4
+    d c h
+    c r8 b4 b8
+    a4 r c %10
+    h! r r
+    h2 c4~
+    c h a
+    \pao g d' e~
+    e d c %15
+    h d e~
+    e fis g
+    c, h a
+    \pao g r8 f'!4 f8
+    e4 r g \noBreak %20
+    f e d\trill \bar "||"
+    \time 4/4 \tempoSanctusB \pa c8 c c \pd r r h h r \noBreak
+    \pa c4\pE d e f \pd
+    a16 g f e f g a h c4. a8
+    g4 f\trill e8^\critnote c4\f c8 %25
+    d4 e f r8 d
+    e4 fis g r8 \pa g~
+    g16 e d c f4~ f16 d c h e4~
+    e16 c h a d4~ d16 h a g c4~
+    c8 c \pd h4 c8 e f g %30
+    a4 b a2\fermata
+    g8 g g g g4 r\fermata \bar "|." %32 finis
+  }
+}

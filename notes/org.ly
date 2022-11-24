@@ -1263,3 +1263,77 @@ OffertoriumBassFigures = \figuremode {
   <6 4> <5> <6 5>4 %165
   r2 %166 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    \mvTr c4\f-\tuttiE r r
+    c c c
+    c r r
+    c c c
+    c r r %5
+    g'8\f g g g g g
+    f f d d e e
+    f f g g g, g
+    c4 r e-\solo
+    f r fis %10
+    g8[ r16 g]-\unisono fis16( g fis e) d( c h a)
+    g4-\tutti r r
+    g' g g
+    g r r
+    g g g %15
+    g8 g g g e e
+    c c a a h h
+    c c d d d d
+    g,4 r h-\solo
+    c r e \noBreak %20
+    f8 d g4 g, \bar "||"
+    \time 4/4 \tempoSanctusB c8 g c r d g, d' r \noBreak
+    e\p c h g c g d' g,
+    e'4 r8 d c c c c
+    c c h h c\fE c' c, c'-\tutti %25
+    c4 b a8 f' f, d'
+    d4 c h8 g' g,, g'
+    a4~ a16 f e d g4~ g16 e d c
+    f4~ f16 d c h e4~ e16 c d e
+    f d e f g8 g, c b' a g %30
+    f4 e f2\fermata
+    c8 c' c, c c4 r\fermata \bar "|." %32 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2.
+  <6 4>4 <5 3> <7 2>
+  <8 3>2.
+  <6 4>4 <5 3> <7 2>
+  <8 3>2. %5
+  <4+ _->
+  <6>4 <6!> q
+  q <6 4> <5 3>
+  r2 <6 5->4
+  r2 <6 5>4 %10
+  <[_!]>2.
+  r
+  <6 4>4 <5 3> <7+ 2>
+  <8 3>2.
+  <6 4>4 <5 3> <7+ 2> %15
+  <8 3>2 <_+>4
+  <6> <6\\> <6!>
+  <6> <6 4> <5 _+>
+  r2 <6 5!>4
+  r2 <[6]>4 %20
+  r <6 4> <5 3>
+  r2 <6>
+  q4 q2 q4
+  <[6]>4. <6>8 <5 3>4. <6 4>8
+  <4 2>4 <\t \t>2. %25
+  <2>4 <4 2> <6>4. <_+>8
+  <[6! 4] 2>4 <4+ 2> <6>2
+  <7>4 <6!> <7> <6>
+  <7> <6> <7> <6>
+  <7 5>16 <\t \t> <\tllur \tllur> <6 5> r4. <4 2>8 <6> <6 4 _-> %30
+  r4 <6 5->2.
+  r1 %32 finis
+}

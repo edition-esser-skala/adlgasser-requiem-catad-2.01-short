@@ -744,3 +744,73 @@ OffertoriumAltoLyrics = \lyricmode {
   _ ci --
   mus. %149 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoSanctus
+    \mvTr g'2\f^\tutti a4
+    a g r
+    g2 a4
+    a g r
+    g2.\p %5
+    b\f
+    a4 g8 g g4
+    a g4. g8
+    g4 r r
+    R2.*2 %11
+    d4 d e
+    e d r
+    d d e
+    e d r %15
+    d4. d8 e4
+    e d d
+    e8 e d2
+    d4 r r
+    R2.*2 \bar "||" %21
+    \time 4/4 \tempoSanctusB r2 r4 r8 \mvTr g\pE^\solo \noBreak
+    c,4 d e f
+    \appoggiatura a16 g8([ f16 e] f[ g a h] c8) g g a
+    \appoggiatura g4 f2 e4 r8 \mvTr g\f^\tutti %25
+    a4( g) c, r8 a'
+    h!4( a) d, r8 h'
+    a4. a8 g4. g8
+    f2 e8 e g16([ e)] f([ g)]
+    a8 a g4 g8 g a b %30
+    a4 g f2\fermata
+    e2. r4\fermata \bar "|." %32 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- %5
+  ctus
+  Do -- mi -- nus De --
+  us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt %12
+  coe -- li,
+  coe -- li et
+  ter -- ra %15
+  glo -- ri -- a
+  tu -- a, glo --
+  ri -- a tu --
+  a.
+
+  O -- %22
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, o -- %25
+  san -- na, o --
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, o -- san -- na
+  in ex -- cel -- sis, o -- san -- na %30
+  in ex -- cel --
+  sis. %32 finis
+}

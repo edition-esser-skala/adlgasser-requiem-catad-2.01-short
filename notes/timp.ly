@@ -190,3 +190,36 @@ OffertoriumTimpani = {
     R2\fermata \markQuamDaCapo \bar "||" %156 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    c4\f r r
+    R2.
+    c4 r r
+    R2.*2 %5
+    g4~\startTrillSpan\f g8\stopTrillSpan r r4
+    R2.
+    r4 g g8. g16
+    c4 r r
+    c r r %10
+    g r r
+    g r r
+    R2.
+    g4 r r
+    R2.*4 %18
+    g4 r r
+    c r r \noBreak %20
+    R2. \bar "||"
+    \time 4/4 \tempoSanctusB c4 r g r \noBreak
+    R1*2
+    r2 c8\f c16. c32 c4 %25
+    r2 r8 c16. c32 c8 r
+    r2 r8 g16. g32 g8 r
+    R1*2
+    r4 g8. g16 c8 c16 c c8 c %30
+    c8.[ c16 c8. c16] c2\fermata
+    c8 c c c c4 r\fermata \bar "|." %32 finis
+  }
+}

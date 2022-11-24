@@ -843,13 +843,72 @@ OffertoriumSopranoLyrics = \lyricmode {
   mus. %149 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoSanctus
+    \mvTr c'2\f^\tutti c4
+    c c r
+    e2 f4
+    f e r
+    e2.\p %5
+    e\f
+    f4 f8 f e4
+    d c( h8.) h16
+    c4 r r
+    R2.*2 %11
+    g4 g g
+    g g r
+    h h c
+    c h r %15
+    h4. h8 h4
+    c c h
+    a8 a g4( fis)
+    g r r
+    R2.*2 \bar "||" %21
+    \time 4/4 \tempoSanctusB R1*3
+    r2 r4 r8 \mvTr c\f^\tutti %25
+    d4( e) f r8 d
+    e4( fis) g r8 g
+    g16([ e)] d([ c)] f4~ f16[ d] c([ h)] e4~
+    e16[ c] h([ a)] d4~ d16[ h] a([ g)] c4~
+    c h c8 c c c %30
+    c4 c c2\fermata
+    c2. r4\fermata \bar "|." %32 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- %5
+  ctus
+  Do -- mi -- nus De --
+  us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt %12
+  coe -- li,
+  coe -- li et
+  ter -- ra %15
+  glo -- ri -- a
+  tu -- a, glo --
+  ri -- a tu --
+  a.
+
+  O -- %25
+  san -- na, o --
+  san -- na, o --
+  san -- na in __ ex -- cel --
+  sis, in __ ex -- cel --
+  _ sis, o -- san -- na %30
+  in ex -- cel --
+  sis. %32 finis
+}
 
 
-% # Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

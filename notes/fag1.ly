@@ -522,3 +522,42 @@ OffertoriumFagottoI = {
     f,4 r\fermata \markQuamDaCapo \bar "||" %166 finis
   }
 }
+
+SanctusFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    c'2.\f
+    c2 r4
+    c2.
+    c2 r4
+    R2. %5
+    b\f
+    a4 d g,
+    a g2
+    c4 r8 c4 c8
+    c4 r d %10
+    d r r
+    d2 e4~
+    e d c
+    h g' g~
+    g2 d4~ %15
+    d h h
+    c d d
+    e d4. c8
+    h4 r8 g4 g8
+    g4 r g \noBreak %20
+    a \pao g g \bar "||"
+    \time 4/4 \tempoSanctusB c8 g g r r g g r \noBreak
+    g r r4 r2
+    R1
+    r2 r8 g4\f g8 %25
+    a4 c c r8 a
+    h!4 d d r8 d
+    \pa c d16 e a,8. d16 h8 c16 d g,8. c16
+    a8 h16 c f,4 e16 g a h c4
+    a8 d d4 e8 c4 c8 \pd %30
+    c4 c c2\fermata
+    c8 c c c c4 r\fermata \bar "|." %32 finis
+  }
+}

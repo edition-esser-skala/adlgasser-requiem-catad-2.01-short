@@ -621,3 +621,43 @@ OffertoriumViolinoI = {
     f8 <a c, f,> q4\fermata \markQuamDaCapo \bar "||" %166 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    <g e' c'>8\f g'-! g-! g-! a-! a-!
+    a8.(\trill g32 a) g16-! e'( d c) h( c d h)
+    <c e,>8 e-! e-! e-! f-! f-!
+    f4\trill 16-! g( f e) d( e f d)
+    e8 <e g,>4\p q q8~ %5
+    q16 <e b>8\f q q q q q16
+    <f a,> f f f f f f f e e e e
+    d d d d c c c c h h h h
+    c8 \appoggiatura a'32 g( fis g a) g8 b,(-. b-. b-.)
+    a16-! a( h c) d( e f g) a( h c c,) %10
+    \appoggiatura c h8( a16 g) fis( g fis e) d( c h a)
+    <g d' h' g'>8 d''-! d-! d-! e-! e-!
+    e8.(\trill d32 e) d16-! h'( a g) fis( g a fis)
+    <g h,>8 h-! h-! h-! c-! c-!
+    c8.(\trill h32 c) h16-! d( c h) a( h c a) %15
+    <h d,>16 q8 q q q16 q q8 q16
+    <c e,> c c c c c c c h h h h
+    a a a a g g g g fis fis fis fis
+    g8[ \appoggiatura e32 d( cis d e)] d8 \once \slurDashed f,!(-. f-. f-.)
+    e16 g a h c d e f g e c g \noBreak %20
+    a a' f d c8 c h h \bar "||"
+    \time 4/4 \tempoSanctusB
+      <c e, g,>4 r8 \appoggiatura f32 e16( d32 c) h4 r8 \appoggiatura g'32 f16( e32 d) \noBreak
+    c8\p r d r e r f r
+    \appoggiatura a16 g8( f16 e) f g a h c8 g-! g( a)
+    g16 f f f f f f f e\f g,32( f) e16-! g-! c, e'32( f) g16-! e-! %25
+    d d d d e e e e f8 \appoggiatura b,32 a( g a b) a8 a'32( fis e d)
+    e16 e e e fis fis fis fis g8 \appoggiatura c,32 h( a h c) h8 d'32( h a g)
+    c4~ c16 a g f h4~ h16 g f e
+    a4~ a16 f e d g4~ g16 e f g
+    a f e d d d d d c8-! e( f g) %30
+    a a, b' b, a2\fermata
+    g8 <e' g, c,> q q q4 r\fermata \bar "|." %32 finis
+  }
+}

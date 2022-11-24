@@ -302,3 +302,38 @@ OffertoriumTromboneI = {
     R2\fermata \markQuamDaCapo \bar "||" %156 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoSanctus
+    g'2\f a4
+    a g r
+    g2 a4
+    a g r
+    R2. %5
+    b\f
+    a4 g8 g g4
+    a g4. g8
+    g4 r r
+    R2.*2 %11
+    d4 d e^\critnote
+    e d r
+    d d e
+    e d r %15
+    d2 e4
+    e d d
+    e d2
+    d4 r r
+    R2.*2 \bar "||" %21
+    \time 4/4 \tempoSanctusB R1*3
+    r2 r4 r8 g\f %25
+    a4 g c, r8 a'
+    h!4 a d, r8 h'
+    a4. a8 g4. g8
+    f2 e4 c
+    a'8 a g4 g8 g a b %30
+    a4 g f2\fermata
+    e2. r4\fermata \bar "|." %32 finis
+  }
+}

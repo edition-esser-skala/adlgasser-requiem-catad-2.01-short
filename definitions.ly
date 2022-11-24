@@ -31,6 +31,8 @@ tempoSequentia = \tempoMarkup "Allegro"
 tempoOffertorium = \tempoMarkup "Vivace non troppo"
   tempoQuam = \tempoMarkup "Quam olim Abrahae · Alla capella"
   tempoVersus = \tempoMarkup "Andante molto"
+tempoSanctus = \tempoMarkup "Moderato"
+  tempoSanctusB = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"
