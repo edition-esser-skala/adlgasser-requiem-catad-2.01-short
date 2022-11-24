@@ -540,3 +540,51 @@ SanctusOboeI = {
     g8 g g g g4 r\fermata \bar "|." %32 finis
   }
 }
+
+BenedictusOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 \pa c'4\f d
+    es8 f~ f16. g32 as16. c,32
+    h8 c16. es32 g8 f\trill \pd
+    es4 r
+    R2*7 %11
+    r8 f~\pE f16 es( d c)
+    \pa h8 f'~ f16 as( g f)
+    es8 r r4
+    R2 %15
+    r4 r8 \pd f(
+    es) r r f(
+    es) r r4
+    r8 f~ f16 es d c
+    h8 d4 \pa g8~ %20
+    g c~ c16 as g f \pd
+    es4 d
+    \pao c8 r r f(
+    es) r r f(
+    es) r r f( %25
+    es) r r4
+    r8 f~\crescE f16 g(\fE as c,)
+    h8 d\pE f4
+    \pa es8 e f g16 as
+    c,8 es4 d8 %30
+    c\f \pd es4 d8
+    \pa c g'4 f8
+    es g as f~
+    f es d4\trill \noBreak
+    c \pd r\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoSanctusB \newSpacingSection
+      \pa r8 c\f c \pd r r h h r \noBreak
+    \pa c4\pE d e f \pd
+    a16 g f e f g a h c4. a8
+    g4 f\trill e8 c4\f c8
+    d4 e f r8 d %40
+    e4 fis g r8 \pa g~
+    g16 e d c f4~ f16 d c h e4~
+    e16 c h a d4~ d16 h a g c4~
+    c8 c \pd h4 c8 e f g
+    a4 b a2\fermata %45
+    g8 g g g g4 r\fermata \bar "|." %46 finis
+  }
+}

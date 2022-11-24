@@ -689,3 +689,57 @@ SanctusViola = {
     c8 c' c, c c4 r\fermata \bar "|." %32 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 r es\f d h
+    c2
+    d8 g, a h
+    c8. as'16-! g16.-!\> f32-! es16.-! d32-!
+    c8\p es d h %5
+    c2
+    d8 g, a h
+    c es16.\f d32 c8 es
+    <d g,>\p c4 h8
+    c es\f g c\p %10
+    c,8.. b32 as8.. g32
+    f8.. es32 d8.. es32
+    f8.. es32 d8.. d'32
+    c16 g8 g g g16~\f
+    g g'8\p g g g16~\f %15
+    g g,8\p g g g16~\f
+    g g'8\p g g g16~\f
+    g8 c,\p c c
+    f f f f
+    f f f f %20
+    es es f f
+    g\cresc g g g
+    c,16\fpE g'8 g g g16
+    g g,8 g g g16
+    g' g,8 g g g16 %25
+    g' es8 es g g16
+    c,4\cresc as'8\f f
+    g4 h,16\p d32( es) f16 h,
+    c8 c4 c8\cresc
+    es!4 r %30
+    c8\f g'4 g8~
+    g es d h
+    c g f as
+    g c4 h8 \noBreak
+    c c' c,4\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      c8\f g c r d g, d' r \noBreak
+    g8\p g4 g g g8
+    g4 r8 d( g,) c c c
+    a'16 a a a g g g g c,8\f c' c, c' %25
+    c4 b a8 f' f, d'
+    d4 c h8 g' g,, g'
+    a4~ a16 f e d g4~ g16 e d c
+    f4~ f16 d c h e4~ e16 c d e
+    f d e f g8 g, c b' a g %30
+    f4 e f2\fermata
+    c8 c' c, c c4 r\fermata \bar "|." %32 finis
+  }
+}

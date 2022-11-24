@@ -561,3 +561,57 @@ SanctusFagottoI = {
     c8 c c c c4 r\fermata \bar "|." %32 finis
   }
 }
+
+BenedictusFagottoI = {
+  \relative c {
+    \clef "treble_8"
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 es'4\f \pa d
+    c8 as'16. g32 as8 c,
+    d c4 d8 \pd
+    c4 r
+    c\pE d %5
+    es8 f16. g32 as4
+    g8 c,4 h8
+    c g\f c4
+    d8\p g, a h
+    c4 r %10
+    R2
+    r8 f~\pE f16 es( d c)
+    \pa h8 f'~ f16 as( g f)
+    es8 r r4
+    R2 %15
+    r8 \pd es([ f)] r
+    r es( f) r
+    r e f g
+    f8. g16 as4
+    g8 g4 h,8 %20
+    c4~ c16 f g as
+    g4. g8
+    es r r \pa d(
+    c) \pd r r \pa d(
+    c) \pd r r \once \slurDashed \pa d( %25
+    c) \pd r r4
+    r8 f~\crescE f16 g(\fE as c,)
+    h8 r r as!\pE
+    g g' c,4
+    es8 g4 f8 %30
+    \pa es\f g4 g,8~
+    g g4 h8
+    c g f f'
+    d c as g \pd \noBreak
+    c4 r\fermata \bar "||" %35
+    \clef bass \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      r8 g\f g r r g g r \noBreak
+    g r r4 r2
+    R1
+    r2 r8 g4\f g8
+    a4 c c r8 a %40
+    h!4 d d r8 d
+    \pa c d16 e a,8. d16 h8 c16 d g,8. c16
+    a8 h16 c f,4 e16 g a h c4
+    a8 d d4 e8 c4 c8 \pd
+    c4 c c2\fermata %45
+    c8 c c c c4 r\fermata \bar "|." %46 finis
+  }
+}

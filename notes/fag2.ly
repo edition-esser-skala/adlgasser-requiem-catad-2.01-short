@@ -510,7 +510,7 @@ SanctusFagottoII = {
     g,4 r8 h4 h8
     c4 r e \noBreak %20
     f g g, \bar "||"
-    c8 c c r r d d r \noBreak
+    \time 4/4 \tempoSanctusB c8 c c r r d d r \noBreak
     e r r4 r2
     R1
     r2 r8 c4\f c8 %25
@@ -521,5 +521,52 @@ SanctusFagottoII = {
     f d e f g8 g, c b' a g %30
     f4 f f2\fermata
     c8 c c c c4 r\fermata \bar "|." %32 finis
+  }
+}
+
+BenedictusFagottoII = {
+  \relative c {
+    \clef "treble_8"
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 c'4\f h8 g
+    c as4 f8~
+    f es d g
+    c,4 r
+    R2*8 %12
+    r4 r8 g'\pE
+    g'2~
+    g~ %15
+    g8 c,([ h)] r
+    r c( h) r
+    r g as b!
+    as8. g16 f4~
+    f8 f4 f8 %20
+    es4 f
+    g g,
+    c8 r r g'(
+    c) r r g(
+    c) r r \once \slurDashed g( %25
+    c) r r4
+    R2
+    r4 r8 h,\pE
+    c b'! as g16 f
+    g4 g, %30
+    c\f g'
+    es8 c h g
+    c es f f
+    g as f g \noBreak
+    c,4 r\fermata \bar "||" %35
+    \clef bass \key c \major \time 4/4 \tempoOsanna
+      r8 c\f c r r d d r \noBreak
+    e r r4 r2
+    R1
+    r2 r8 c4\f c8
+    c4 b a r8 d %40
+    d4 c h r8 g'
+    a4~ a16 f e d g4~ g16 e d c
+    f4~ f16 d c h e4~ e16 c d e
+    f d e f g8 g, c b' a g
+    f4 f f2\fermata %45
+    c8 c c c c4 r\fermata \bar "|." %46 finis
   }
 }

@@ -805,3 +805,78 @@ SanctusTenoreLyrics = \lyricmode {
   in ex -- cel --
   sis. %32 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 2/4 \autoBeamOff \tempoBenedictus
+    \partial 8 r8 R2*9 %9
+    r4 r8 \mvTr es\pE^\solo %10
+    c c16. b32 as8 as16. g32
+    f16. f32 f8 r8. g16
+    f8 f r4
+    R2
+    r8. c'16 h([ d)] d f %15
+    \appoggiatura f32 es16 d32([ c)] c8 r4
+    r8 c~ c16[ h] d([ f)]
+    \appoggiatura f32 es16([ d32 c)] c8 r4
+    r8. as16 as([ c)] f es!
+    d16. d32 d8 r d %20
+    es d16 c c8 f16 f
+    es4( d8.) d16
+    c4 r8 h16 d
+    c8 c, r h'
+    c c, r h' %25
+    c g16 g g8 c16 c
+    c16. f,32 f8 r4
+    r8 g d'4
+    c8 c c c16 c
+    es8( g4) h,8 %30
+    c4 r
+    R2*3 \noBreak
+    R2\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection R1*3
+    r2 r4 r8 \mvTr e\f^\tutti
+    f4( c) c r8 fis %40
+    g4( d) d r8 d
+    c4. f8 h,4. e8
+    a,4.( d8) g,4 e'~
+    e8 d d4 c8 e f g
+    c,4. g8 a2\fermata %45
+    g2. r4\fermata \bar "|." %46 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Qui %10
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui
+  ve -- nit
+
+  in no -- mi -- ne %15
+  Do -- mi -- ni,
+  be -- ne --
+  di -- ctus,
+  in no -- mi -- ne
+  Do -- mi -- ni, qui %20
+  ve -- nit in no -- mi -- ne
+  Do -- mi --
+  ni, be -- ne --
+  di -- ctus, qui
+  ve -- nit, qui %25
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  qui ve --
+  nit in no -- mi -- ne
+  Do -- mi -- %30
+  ni.
+
+  O -- %39
+  san -- na, o -- %40
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, in __
+  ex -- cel -- sis, o -- san -- na
+  in ex -- cel -- %45
+  sis. %46 finis
+}

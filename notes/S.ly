@@ -908,13 +908,82 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %32 finis
 }
 
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 2/4 \autoBeamOff \tempoBenedictus
+    \partial 8 r8 R2*9 %9
+    r4 r8 \mvTr g''\pE^\solo %10
+    f f16. es32 d8 d16. c32
+    h16. h32 h8 r8. c16
+    h8 h r4
+    r8 g16 g' g([ f)] es d
+    es8 es r4 %15
+    r8. g16 g([ f)] es d
+    es16. es32 es8 r4
+    R2
+    r8. f16 f([ es!)] d c
+    h16. h32 h8 r g %20
+    g g'16 g g([ f)] es d
+    c4( h8.) h16
+    c4 r8 d16 f
+    es8 c r f
+    es c r %25
+    f es d16 es c8 b!16 c
+    as16. as32 as8 r4
+    r8 g f'4
+    es8 e f g16 as
+    c,8( es4) d8 %30
+    c4 r
+    R2*3 \noBreak
+    R2\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection R1*3
+    r2 r4 r8 \mvTr c\f^\tutti
+    d4( e) f r8 d %40
+    e4( fis) g r8 g
+    g16([ e)] d([ c)] f4~ f16[ d] c([ h)] e4~
+    e16[ c] h([ a)] d4~ d16[ h] a([ g)] c4~
+    c h c8 c c c
+    c4 c c2\fermata %45
+    c2. r4\fermata \bar "|." %46 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  Qui %10
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui
+  ve -- nit,
+  be -- ne -- di -- ctus, qui
+  ve -- nit %15
+  in no -- mi -- ne
+  Do -- mi -- ni,
+
+  in no -- mi -- ne
+  Do -- mi -- ni, qui %20
+  ve -- nit in no -- mi -- ne
+  Do -- mi --
+  ni, be -- ne --
+  di -- ctus, qui
+  ve -- nit, qui %25
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  qui ve --
+  nit in no -- mi -- ne
+  Do -- mi -- %30
+  ni.
+
+  O -- %39
+  san -- na, o -- %40
+  san -- na, o --
+  san -- na in __ ex -- cel --
+  sis, in __ ex -- cel --
+  _ sis, o -- san -- na
+  in ex -- cel -- %45
+  sis. %46 finis
+}
 
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% # Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Do -- na e -- is re -- qui -- em.

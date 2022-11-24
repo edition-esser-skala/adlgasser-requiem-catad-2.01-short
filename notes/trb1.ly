@@ -337,3 +337,22 @@ SanctusTromboneI = {
     e2. r4\fermata \bar "|." %32 finis
   }
 }
+
+BenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 R2*34 \noBreak %34
+    R2\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      R1*3
+    r2 r4 r8 g'\f
+    a4 g c, r8 a' %40
+    h!4 a d, r8 h'
+    a4. a8 g4. g8
+    f2 e4 c
+    a'8 a g4 g8 g a b
+    a4 g f2\fermata %45
+    e2. r4\fermata \bar "|." %46 finis
+  }
+}

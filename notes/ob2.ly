@@ -493,3 +493,50 @@ SanctusOboeII = {
     e8 e e e e4 r\fermata \bar "|." %32 finis
   }
 }
+
+BenedictusOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r8 g'4.\f h8
+    c c4 as8
+    g g a h
+    c4 r
+    R2*8 %12
+    r4 r8 \mvDl g\pE
+    g'2~
+    g~ %15
+    g8 r r h,(
+    c) r r h(
+    c) r r4
+    r8 as~ as16 g f es
+    d8 h'4 d8 %20
+    es g as16 f es d
+    c4 h
+    c8 r r h(
+    c) r r h(
+    c) r r h( %25
+    c) r r4
+    R2
+    r8 h\pE d4
+    c8 c4 b16 as
+    g4. h8 %30
+    c\f c4 h8
+    c es d4
+    c8 c4 d8
+    h c4 h8 \noBreak
+    c4 r\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      r8 e,\f e r r f f r \noBreak
+    e r r4 r2
+    R1
+    r2 r8 e4\f e8
+    f4 g a r8 fis %40
+    g4 a g r8 h
+    c4~ c16 a g f! h4~ h16 g f e
+    a4~ a16 f e d g4~ g16 e f g
+    a8 a g4 g8 g a e'
+    f4 g f2\fermata %45
+    e8 e e e e4 r\fermata \bar "|." %46 finis
+  }
+}

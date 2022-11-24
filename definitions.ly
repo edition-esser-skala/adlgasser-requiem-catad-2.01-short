@@ -33,6 +33,8 @@ tempoOffertorium = \tempoMarkup "Vivace non troppo"
   tempoVersus = \tempoMarkup "Andante molto"
 tempoSanctus = \tempoMarkup "Moderato"
   tempoSanctusB = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andante maestoso"
+  tempoOsanna = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

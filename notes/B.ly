@@ -784,3 +784,88 @@ SanctusBassoLyrics = \lyricmode {
   in ex -- cel --
   sis. %32 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 2/4 \autoBeamOff \tempoBenedictus
+    \partial 8 r8 R2*4
+    \mvTr c4\pE^\soloE d %5
+    es16.([ c32)] f8 r8. c'16
+    h8 c16. as32 \appoggiatura g16 f8. f16
+    es4 r8. c'16
+    h16.([ g32)] c16. as32 \appoggiatura g16 f8. f16
+    es4 r8 c %10
+    as'8 as16. g32 f8 f16. es32
+    d16. d32 d8 r8. es16
+    d8 d r4
+    r r8 g
+    g2 %15
+    g4 r8 g
+    g4. g8
+    g8 r16 e e([ f)] f g
+    f16. f32 f8 r4
+    r8. h16 h8 d16. h32 %20
+    c8. c16 f,4
+    g4. g8
+    c,4 r
+    r8 c16 c' h8 g
+    r c h g %25
+    r c, es e16 e
+    f16. f32 f8 r4
+    r r8 h,
+    c b'!16 b as8 g16 f
+    g4 g, %30
+    c r
+    R2*3 \noBreak
+    R2\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection R1*3
+      r2 r4 r8 \mvTr c'\f^\tutti
+    c4( b) a r8 d %40
+    d4( c) h! r8 g
+    a4~ a16[ f] e([ d)] g4~ g16[ e] d([ c)]
+    f4~ f16[ d] c([ h)] e4~ e16[ c] d([ e)]
+    f([ d e f] g4) c,8 b' a g
+    f4 e f2\fermata %45
+    c2. r4\fermata \bar "|." %46 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- %5
+  di -- ctus, qui
+  ve -- nit in no -- mi --
+  ne, in
+  no -- mi -- ne Do -- mi --
+  ni, qui %10
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui
+  ve -- nit,
+  qui
+  ve -- %15
+  nit in
+  no -- mi --
+  ne, qui ve -- nit in
+  no -- mi -- ne,
+  qui ve -- nit in %20
+  no -- mi -- ne
+  Do -- mi --
+  ni,
+  be -- ne -- di -- ctus,
+  qui ve -- nit %25
+  in no -- mi -- ne
+  Do -- mi -- ni,
+  qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- %30
+  ni.
+
+  O -- %39
+  san -- na, o -- %40
+  san -- na, o --
+  san -- na in __ ex --
+  cel -- sis, in __ ex --
+  cel -- sis, o -- san -- na
+  in ex -- cel -- %45
+  sis. %46 finis
+}

@@ -652,12 +652,66 @@ SanctusViolinoII = {
     c\p r d r e r f r
     c4 r8 f( e) e-! e( f)
     d16 d d d d d d d c\f g32( f) e16-! g-! c, e'32( f) g16-! e-! %25
-    f f, f f g g g g <a c,>8-\critnote \appoggiatura g32 f( e f g) f8 fis
+    f f, f f g g g g <c c,>8 \appoggiatura g32 f( e f g) f8 fis
     g16 g g g a a a a <h! d,>8 \appoggiatura a32 g( fis g a) g8 g'~
     g16 e d c f4~ f16 d c h e4~
     e16 c h a d4~ d16 h a g c4~
     c16 c8 c16 h h h h c8-! g( a e') %30
     f f, g' g, f2\fermata
     e8 <c g' e'> q q q4 r\fermata \bar "|." %32 finis
+  }
+}
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \tempoBenedictus
+    \partial 8 r16. \mvTr g'32\fE-\markup \remark "con sordino" c8.[ g16 d'8. g,16]
+    es'16. c32 f8~\fp f16 \appoggiatura as64 g32 f64 g as16.\f c,32
+    h16. g32 c16. as32 g8 f\trill
+    es4 r8. g16\p
+    c8.[ g16 d'8. g,16] %5
+    es'16. c32 f8~\fp f16 \appoggiatura as64 g32 f64 g as16. c,32
+    h16. g32 c16. as32 \appoggiatura g8 f4\trill
+    es8 g32\f f es d c d es f g[ a h c]
+    h16.\p g32 c16. as32 \appoggiatura g8 f4\trill
+    es8 \appoggiatura d32 c(\f h c d) c16 es'\p es es %10
+    f16. \tuplet 3/2 32 { g64 f e } f16.-! es32-! d16. \tuplet 3/2 8 { es64 d c } d16.-! c32-!
+    h32( d f as) f8~ f32( g f es) d([ es d c)]
+    h( d f as) f8~ f32 es( d c) h([ as! g f)]
+    es16 es r g r f r h,32(\f d)
+    c16(\p es) r g r f r h32(\f d) %15
+    c16(\p es) r g, r f r h,32(\f d)
+    c16(\p es) r g r f r h32(\f d)
+    c16(\p es) r e,32( f) e16( f) f( g)
+    f( as) r as32( b) as16-! g-! f-! es-!
+    <d d'> <d h'>8 q q q16 %20
+    c' c8 c16 c-! as-! g-! f-!
+    es32 c' c c c c c c h\< d d d d d d d
+    c8\f r r g32(\p h d f)
+    es8 r r g,32( h d f)
+    es8 r r g,32( h d f) %25
+    es16 c8 c g b!16
+    as-!\cresc as32( b) as16-! as32( g) f16\f f'32( g) as16 c,
+    h16-! h32(\p c) d16 fis, g16-! f32( g) as16 d,
+    es es' e, e' f, c'(\cresc b! as)
+    g4 r %30
+    \sbOn \mvTr c,8\f-\markup \remark "senza sordino" es'~ \tuplet 3/2 8 { es16 f es \appoggiatura es32 d16 c h }
+    \tuplet 3/2 8 { c es c } g8~ \tuplet 3/2 8 { g16 as g \appoggiatura g32 f16 es f }
+    \tuplet 3/2 8 { es g es c es c as as' f d f d } \sbOff
+    g,8 \appoggiatura d'32 c( h c d) d4\trill \noBreak
+    c8 <g' es' c'> q4\fermata \bar "||" %35
+    \key c \major \time 4/4 \tempoOsanna \newSpacingSection
+      c,8\f g c r h' g h r \noBreak
+    c\p r d r e r f r
+    c4 r8 f( e) e-! e( f)
+    d16 d d d d d d d c\f g32( f) e16-! g-! c, e'32( f) g16-! e-!
+    f f, f f g g g g <c c,>8 \appoggiatura g32 f( e f g) f8 fis %40
+    g16 g g g a a a a <h! d,>8 \appoggiatura a32 g( fis g a) g8 g'~
+    g16 e d c f4~ f16 d c h e4~
+    e16 c h a d4~ d16 h a g c4~
+    c16 c8 c16 h h h h c8-! g( a e')
+    f f, g' g, f2\fermata %45
+    e8 <c g' e'> q q q4 r\fermata \bar "|." %46 finis
   }
 }
