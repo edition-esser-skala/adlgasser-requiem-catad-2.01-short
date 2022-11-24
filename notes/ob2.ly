@@ -323,3 +323,134 @@ SequentiaOboeII = {
     R1\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    c'2\f d4
+    c2 h4
+    c h a
+    g f e
+    d r8 g16 g g8 g %5
+    g4 r8 g16 g g8 g
+    g4 r8 g16 g g8 g
+    f a~ a16 g e g g f e d
+    e8 c'4 a8 fis a
+    g4 r r %10
+    R2.*12 %22
+    r4 g\pE\crescE a
+    h\fE r r
+    R2. %25
+    r4 h\f d
+    c8 c~ c16 h g h h a g fis
+    g2 a4
+    g2 fis4
+    g fis e %30
+    d2 e8 d
+    d4 d d
+    d2.~
+    d2 e4
+    e2 gis4 %35
+    a2.
+    a
+    g~
+    g
+    f~ %40
+    f
+    e
+    e
+    f4 r r
+    R2.*4 %48
+    a2.\pE
+    f %50
+    d
+    c
+    a'
+    h4\f a gis
+    a r r %55
+    b2.\<
+    a4\! r r
+    R2.
+    r4 r8 f'\f e b
+    a4 r r %60
+    R2.*3
+    r4 r8 f'\f e f,
+    e4 r r %65
+    R2.*2
+    r4 r8 g4\f g8
+    g4 r r
+    R2.*3 %72
+    r4 r8 g4\f fis8
+    g4 h h
+    h2.\p %75
+    c
+    d
+    c
+    h4. d8 c h
+    c r r4 r %80
+    r8 d c4 h
+    c2\f b4
+    a8 a~ a16 g f e g f e d
+    e8 f e f e d \noBreak
+    c4 r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*8 %93
+    r4 d\f g2~
+    g4 e fis2 %95
+    g h4 g
+    c a4. f!8 e d
+    g2. a8 g
+    f1
+    e4 g f e %100
+    f2. g8 a
+    g4 g2 a4
+    d,2 g~
+    g4 g g2~
+    g4 g2 a8 fis %105
+    d1
+    c4. d8 e2
+    d4 e8 f g2
+    g1~
+    g~ %110
+    g~
+    g~
+    g~
+    g~
+    g~ %115
+    g~
+    g
+    g2 r
+    R1
+    c %120
+    a2 f
+    e1
+    f2. g4
+    a2. b4
+    a2 c4 b %125
+    a1\fermata
+    g1~ \noBreak
+    g\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*14 %142
+    r8 h4\p h8
+    a2
+    h %145
+    c4 a8 d
+    c\fpE e4 c8
+    h d4 f,8
+    e4 r
+    R2*6 %155
+    r8 e4\p e8
+    f2
+    g
+    f8 a b4
+    a8\fpE c4 a8 %160
+    g b4 g8
+    a r b4\fpE
+    a8 r b4\fpE
+    a8 r r4
+    r8 a\fE b4 %165
+    a r\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

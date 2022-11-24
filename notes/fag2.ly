@@ -339,3 +339,148 @@ SequentiaFagottoII = {
     c8)\ppE r c, r c4 r\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoOffertorium
+    c2\f h4
+    c2 g'4
+    a g f
+    e d c
+    h r8 g'16 g g8 g %5
+    e4 r8 c16 c h8 g
+    c4 r8 c16 c e8 e
+    f a~ a16 g e g g f e d
+    c4 c d
+    g8 c h( c h a) %10
+    g4 r r
+    R2.*14 %25
+    r4 h\f h
+    c8 c~ c16 h g h h a g fis
+    g2 fis4
+    g2 d4
+    e d c %30
+    h a g
+    fis d' d
+    h2 d4
+    g2 e4
+    c a' e %35
+    a,2 c4
+    d2.
+    h
+    c
+    a %40
+    h
+    gis
+    a
+    d4 r r
+    R2.*4 %48
+    a2.\pE
+    d %50
+    e
+    f
+    c
+    d4\f e e,
+    a r r %55
+    c2.\<
+    f,4\! r r
+    R2.
+    r4 r8 f\f g g'
+    a4 r r %60
+    R2.*3
+    r4 r8 f\f g g,
+    c4 r r %65
+    R2.*2
+    r4 r8 c\f d d
+    e4 r r
+    R2.*3 %72
+    r4 r8 c\f h a
+    g4 g' g
+    g2.\p %75
+    g
+    g
+    g
+    g2~ g8 f
+    e r r4 r %80
+    r8 d' c4 h
+    c\f c, e
+    f8 a~ a16 g f e g f e d
+    e8 f e f e d \noBreak
+    c4 r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      c'1\fE \noBreak
+    a2 f
+    e2. f8 a
+    g4 f e d
+    e d c d %90
+    e c e fis
+    g2 a4 h
+    c4. h8 a2
+    h4 g e c
+    d1 %95
+    g,2 r
+    R1*3
+    c'1 %100
+    a2 f
+    e2. f8 a
+    g4 f e d
+    e d c d
+    e c e fis %105
+    g1~
+    g~
+    g~
+    g~
+    g~ %110
+    g~
+    g~
+    g~
+    g~
+    g~ %115
+    g~
+    g
+    c
+    a2 f
+    e1 %120
+    f2 g4 a
+    b2. g4
+    a2 a4 g
+    f2. e4
+    f1 %125
+    f,\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*3 %131
+    r4 r8 a''\pE
+    d b g e
+    f f c'4~
+    c8 b16 a b4 %135
+    a8 g r4
+    R2*6 %142
+    r8 g4\p g8
+    g2~
+    g %145
+    a4 f8 d'
+    c\fpE e4 c8
+    h d4 g,8
+    c,4 r
+    R2 %150
+    r8 e4 g8
+    r f4 a8
+    r g4 h8
+    c2~
+    c8 r r4 %155
+    r8 c,4 c8
+    c2~
+    c
+    d4 b8 b'
+    a\fpE c4 a8 %160
+    g b4 g8
+    a r b4\fpE
+    a8 r b4\fpE
+    a8 r r4
+    r8 d,\fE b c %165
+    f,4 r\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

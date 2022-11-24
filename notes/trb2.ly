@@ -218,3 +218,85 @@ SequentiaTromboneII = {
     R1\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoOffertorium
+    c4.\f c8 d4
+    c2 h4
+    a h c
+    g h c
+    g r r8 d' %5
+    e4 e r8 e
+    c4 c r
+    R2.*20 %27
+    d4.\f d8 d4
+    d g, fis
+    e fis g %30
+    d fis g
+    d r a'8. a16
+    h4. d4 fis,8
+    g4 g h8 gis
+    a4. e'4 gis,8 %35
+    a4 a r8. a16
+    d4 d, r
+    r r r8. h'16
+    c4 c, r
+    r r r8. a'16 %40
+    h4 h, r
+    r r r8. gis'16
+    a2.
+    f'\p
+    e4 r r %45
+    R2.*2
+    a2(\p gis4)
+    a r r
+    R2.*35 \noBreak %84
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*2
+    r4 g,\fE c2~
+    c4 a h4. h8
+    c2 e4 d %90
+    c1
+    h4 h c d
+    e c e fis
+    g h,2 e4
+    a,2 d %95
+    d4 g, g2~
+    g4 f! f2
+    e4 e' e f8 e
+    d1
+    c4 e d c %100
+    c1
+    c,2 r
+    R1*3 %105
+    g''1
+    e2 c
+    h2. h4
+    c2 d4 e
+    f2 f4 d %110
+    e2 d4 c
+    h1
+    c4 c d e
+    d c h g
+    e'2. d8 c %115
+    d1~
+    d
+    c4 b a g
+    f2. f4
+    c2 c~ %120
+    c c'
+    c1~
+    c2 c4 e,
+    f2 f4 g
+    f2 f4 b %125
+    a1\fermata
+    g~ \noBreak
+    g\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*37 %1165
+    R2\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

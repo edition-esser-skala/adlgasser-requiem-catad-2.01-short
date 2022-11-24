@@ -615,27 +615,234 @@ SequentiaSopranoLyrics = \lyricmode {
   men. %313 finis
 }
 
+OffertoriumSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoOffertorium
+    \mvTr e'4.\f^\tutti e8 f4
+    e2 d4
+    c h a
+    g2 a8([ g)]
+    g4 r r8 h %5
+    c8. c16 c4 r8 d
+    e8. e16 e4 r
+    R2.*3 %10
+    \mvTr g4.\pE^\solo fis8 e4
+    d4. c16([ h)] h4
+    c4. d16([ e)] d8 c
+    ais8. h16 h4 r8 h
+    a4. c16 h a8 g %15
+    fis8.([ a16)] g4 r8 d
+    d2.
+    d4 r r8 d
+    d2.
+    d4 r r8 d %20
+    cis2.
+    c
+    h8.([ g'16)] g8 r r4
+    r8 h g'([ fis)] e([ d)]
+    \appoggiatura d16 c8 h16([ a)] g4( a) %25
+    g r r
+    R2.
+    \mvTr h4.\f^\tutti h8 c4
+    h h a
+    g fis e %30
+    d2( e8[ d)]
+    d4 r a'8 fis
+    g8. g16 g4 a8 c
+    h8. h16 h4 gis8 h
+    a8. a16 a4 h8 d %35
+    c8. c16 c4 r8. e16
+    f4 f, r
+    r r r8. d'16
+    e4 e, r
+    r r r8. c'16 %40
+    d4 d, r
+    r r r8. d'16
+    c2.
+    gis4 gis\p h
+    a2. %45
+    dis,4 dis dis
+    e2.~
+    e
+    e4 r r
+    R2.*35 \noBreak %84
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*6 %91
+    \mvTr g'1\f^\tutti
+    e2 c
+    h2. c8 e
+    d4( c) h( a) %95
+    h( a) g h
+    a h8 c d2~
+    d4 g, c2~
+    c4 d8 c h2
+    c r %100
+    R1
+    r4 g c2~
+    c4 a h4. h8
+    c2 e4 d
+    c1 %105
+    h2 r
+    R1
+    g'
+    e2 c
+    h2. h4 %110
+    c2 d4 e
+    f2 f4 d
+    e2 d4 c
+    h c d2~
+    d4 g, c2~ %115
+    c h4 a
+    h1
+    c4 g f e
+    f4. g8 a2
+    g c %120
+    c1
+    c2 c
+    c c4 c
+    c2 c4 c
+    c1~ %125
+    c\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      \mvTr a8.\pE^\solo a16 a8 c \noBreak
+    f, f f4~ %130
+    f8 g16([ a)] b8. b16
+    a4 f'~
+    f8 d \appoggiatura c16 b8. b16
+    a4 c~
+    c8 b4 d8 %135
+    f,8. e16 e8 c'
+    c8. h16 h8 d
+    d e16([ f)] e8 d
+    d c c4~\fz
+    c8 b! b8. b16 %140
+    a4 d~\fz
+    d8 c c8. c16
+    h4 g'
+    fis4. fis8
+    f4. f8 %145
+    e4 f8 d
+    c2
+    h4. h8
+    c4 r
+    R2*16 \noBreak %165
+    R2\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}
 
+OffertoriumSopranoLyrics = \lyricmode {
+  Do -- mi -- ne
+  Ie -- su
+  Chri -- ste, Rex
+  glo -- ri --
+  ae, Rex %5
+  glo -- ri -- ae, Rex
+  glo -- ri -- ae,
 
-% Do -- mi -- ne Ie -- su Chri -- ste, Rex glo -- ri -- ae,
-% li -- be -- ra a -- ni -- mas o -- mni -- um fi -- de -- li -- um de -- fun -- cto -- rum
-% de poe -- nis in -- fer -- ni, et de pro -- fun -- do la -- cu:
-% Li -- be -- ra e -- as de o -- re le -- o -- nis,
-% ne ab -- sor -- be -- at e -- as tar -- ta -- rus,
-% ne ca -- dant in ob -- scu -- rum.
-% Sed si -- gni -- fer san -- ctus Mi -- cha -- el
-% re -- prae -- sen -- tet e -- as in lu -- cem san -- ctam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
+  li -- be -- ra %11
+  a -- ni -- mas
+  o -- mni -- um fi --
+  de -- li -- um, fi --
+  de -- li -- um de -- fun -- %15
+  cto -- rum de
+  poe --
+  nis in --
+  fer --
+  ni, et %20
+  de
+  pro --
+  fun -- do,
+  et de __ pro --
+  fun -- do la -- %25
+  cu.
 
-% Ho -- sti -- as et pre -- ces ti -- bi, Do -- mi -- ne,
-% lau -- dis of -- fe -- ri -- mus:
-% Tu su -- sci -- pe pro a -- ni -- ma -- bus il -- lis,
-% qua -- rum ho -- di -- e me -- mo -- ri -- am fa -- ci -- mus.
-% Fac e -- as, Do -- mi -- ne, de mor -- te trans -- i -- re ad vi -- tam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
+  Li -- be -- ra
+  e -- as de
+  o -- re le -- %30
+  o --
+  nis, ne ab --
+  sor -- be -- at e -- as
+  tar -- ta -- rus, ne ab --
+  sor -- be -- at e -- as %35
+  tar -- ta -- rus, ne
+  ca -- dant,
+  ne
+  ca -- dant,
+  ne %40
+  ca -- dant,
+  ne
+  ca --
+  dant in ob --
+  scu -- %45
+  rum, in ob --
+  scu --
 
+  rum.
 
-% # Sanctus
+  Quam %92
+  o -- lim
+  A -- bra -- hae
+  pro -- mi -- %95
+  si -- sti, et
+  se -- mi -- ni e --
+  ius, se --
+  mi -- ni e --
+  ius, %100
+
+  quam o --
+  lim A -- bra --
+  hae pro -- mi --
+  si -- %105
+  sti,
+
+  quam
+  o -- lim
+  A -- bra -- %110
+  hae pro -- mi --
+  si -- sti, et
+  se -- mi -- ni
+  e -- _ _
+  _ _ %115
+  _ _
+  _
+  ius, quam o -- lim
+  A -- bra -- hae
+  pro -- mi -- %120
+  si --
+  sti, et
+  se -- mi -- ni,
+  se -- mi -- ni
+  e -- %125
+
+  ius. __
+
+  Ho -- sti -- as et
+  pre -- ces ti -- %130
+  bi, Do -- mi --
+  ne, ti --
+  bi, Do -- mi --
+  ne, lau --
+  dis of -- %135
+  fe -- ri -- mus: Tu
+  su -- sci -- pe pro
+  a -- ni -- ma -- bus
+  il -- lis, qua --
+  rum ho -- di -- %140
+  e, qua --
+  rum ho -- di --
+  e me --
+  mo -- ri --
+  am, me -- %145
+  mo -- ri -- am
+  fa --
+  _ ci --
+  mus. %149 finis
+}
+
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

@@ -892,3 +892,374 @@ SequentiaBassFigures = \figuremode {
   r <7! 2> <8 3> <7! 2>
   <8 3>1 %314 finis
 }
+
+OffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoOffertorium
+    \mvTr c8\f-\tuttiE c' c c h h
+    c, c' c c g g
+    a, a' g g f f
+    e, e' d d c c
+    h d g d h g' %5
+    e g e c h g
+    c c c c e-\solo e
+    f4 g g,
+    c r d
+    g, g g %10
+    g8 g'\p g g g g
+    fis fis fis fis g g
+    e e e e fis fis
+    g g g g g g
+    c, c c c c c %15
+    c4\f h r
+    fis'(\p g a)
+    g r r
+    fis( g a)
+    g r r %20
+    r8 e e e e e
+    r fis fis fis fis fis
+    g4 r r
+    g\fE r g\pE
+    c, d d, %25
+    g8\f g g g h h
+    c c d d d d
+    g,-\tutti g' g g fis fis
+    g, g' g g d d
+    e, e' d d c c %30
+    h h a a g g
+    fis a d a fis d'
+    h d h g' fis d
+    g g, g' f e d
+    c e c a' gis e %35
+    a a, c e c a
+    d f a f d d'
+    h, d g d h g'
+    c, e g e c c'
+    a, c f c a f' %40
+    h, d f d h h'
+    gis, h e h gis e'
+    a,4 r r
+    d\p r r
+    c r r %45
+    f r r
+    e e e
+    e8 e e e e e
+    a,4 r r
+    d-\solo r r %50
+    e r r
+    f r f\f
+    c\p r c\f
+    d e e,
+    a'2.\p %55
+    g!2\< c,4
+    f,8\p f' f f f f
+    e e e e e e
+    f f f f\f g g
+    a4 r r %60
+    b8\fp b b b b b
+    a a a a a a
+    g4 c c,
+    f r g\f
+    c, c c %65
+    c'8\p c c c c c
+    h! h h h h h
+    c c, c c\f d d
+    e4 r r
+    f8\fp f f f f f %70
+    e e e e e e
+    d4 g g,
+    c r8 c\f h a
+    g2.
+    g8\p r g r g r %75
+    g4 r r
+    g8 r g r g r
+    g4 r r
+    g g'8 g,( g' f)
+    e e e e e e %80
+    f f g\< g g, g
+    c\f c c' c e, e
+    f f g g g, g
+    c4-!-\unisono c-! c-! \noBreak
+    c8[-! r16 g]-! c4-! r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      \mvTr c'1\f-\tuttiE \noBreak
+    a2 f
+    << {
+      r4 g c2~
+      c4 a h2
+      c e4 d %90
+      c1
+      h2
+    } \\ {
+      e,2. f8 a
+      g4 f e d
+      e d c d %90
+      e c e fis
+      g2
+    } >> a4 h
+    c4. h8 a2
+    h4 g e c
+    d1 %95
+    g,2 \clef "treble_8" g'~
+    g4 f! f2
+    e4 e' e f8 e
+    d1
+    \clef bass c %100
+    a2 f
+    e2. f8 a
+    g4 f e d
+    e d c d
+    e c e fis %105
+    << {
+      g'1^\vlcE
+      e2 c
+      h2. h4
+      c2 d4 e
+      f2. d4 %110
+      e
+    } \\ {
+      g,1~_\bassiE
+      g~
+      g~
+      g~
+      g~ %110
+      g4
+    } >> g g g
+    g1
+    g,4 g' g g
+    g1~
+    g~ %115
+    g~
+    g
+    << {
+      c1^\vlcE
+      a2 f
+      e2. e4 %120
+      f2 g4 a
+      b2. g4
+      a2. g4
+      f2. e4
+    } \\ {
+      c1~_\bassiE
+      c~
+      c~ %120
+      c~
+      c~
+      c~
+      c
+    } >>
+    f~ %125
+    f\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      \mvTr f4\p-\solo e \noBreak
+    d a %130
+    b c
+    f d
+    b c
+    f a,
+    b g %135
+    c8 c'\f c,4
+    r8 d\p d d
+    r g g g
+    r c,\mf e c
+    d4(\p e) %140
+    r8 f\mf fis d
+    e4(\p fis)
+    g r
+    g r
+    g r %145
+    a r8 f
+    g\fpE g g g
+    g,16\< g g g g g g g
+    c8\! e-!\p g-! e-!
+    c2~ %150
+    c8 c e c
+    f4 d
+    g e
+    a,8 a' g f
+    e\< f e d %155
+    c4\! r
+    c\pE r
+    c r
+    d r8 b!
+    c\fp c c c %160
+    c16\< c c c c c c c
+    f8\! f'\fp d b
+    f f'\fp d b
+    f a b\< h
+    c\f d b c %165
+    f, f' f,4\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}
+
+OffertoriumBassFigures = \figuremode {
+  r2 <6 5>4
+  r2.
+  <5>4 <6> <5>
+  <6> <6 4 3> <6>8 <5>
+  <6>2. %5
+  q2 q4
+  r2 <6>8 <6 5->
+  <5>4 <[6 4]> \bc <[5 _!]>
+  r2 <_+>4
+  <8 3>8 <6 4> <5 3> <6 4> \bo <[5 3]> <4 2> %10
+  \bc <[5 3]>2 <6 4>4
+  <6 5>2.
+  <6>2 <6 5>4
+  <5 2+>8 <\t 3> r2
+  <6!>2. %15
+  <4+ 2>4 <6>2
+  q <6\\ 4 3>4
+  r2.
+  <6>2 <6\\ 4 3>4
+  r2. %20
+  r8 <6\\> r2
+  r8 <6 5!> r2
+  r2.
+  r2 <6 4>8 <5 3>
+  <6>4 <6 4> <5 _+> %25
+  r2 <6 5!>4
+  r <6 4> <5 _+>
+  r2 <6 5>4
+  r2 <_+>4
+  <5> <6 _+> <5> %30
+  <6> <6\\ 4 3> <6>8 <5>
+  <6>2.
+  q2 q8 <_+>
+  r2 <_+>8 <\t>
+  <6>4. <5>8 <6> <_+> %35
+  r2.
+  <5>
+  <6 5>
+  <5>
+  <6 5> %40
+  <5>
+  <6 5>
+  r
+  <4+ 3>
+  <6> %45
+  <6\\>
+  <5 _+>4 <6 4> <7 _+>
+  <6 4> <5 \t> <\t _+>
+  r2.
+  <6 _!> %50
+  <7 _+>
+  <5>
+  <6>2 q4
+  q <6 4> <5 _+>
+  r2. %55
+  <6 4 _->2 <\t \t \t>4
+  r2.
+  <6>2 <5->4
+  r2 <6 _->4
+  <6>2. %60
+  <5>
+  <6>
+  <_->4 <6 4> <5 3>
+  r2 \bo <6 [4]>8 \bc <5 [_!]>
+  r2. %65
+  r
+  \bo <[6]>2 \bc <[5]>4
+  r2 <6>4
+  q2.
+  <5> %70
+  <6>
+  q4 <6 4> <5 _!>
+  r2.
+  r
+  <7> %75
+  <6 4>
+  <7>
+  <6 4>
+  <7>2 <[6 4]>8 <4 2>
+  <6>2. %80
+  q4 <6 4> <5 3>
+  r2 <6 5->4
+  r <6 4> <5 _!>
+  r2.
+  r %85
+  r1
+  r
+  r
+  r
+  r %90
+  r
+  r
+  r2 <5>4 <6\\>
+  <6>2 <5>
+  <4> <_+> %95
+  r1
+  <2>4 <\t> <6>2
+  <7>4 <6>2 r8 <[6]>
+  <7>2 <6>
+  r1 %100
+  <6>
+  <[6]>
+  <4>4 <3> <5> <\t>
+  <6>1 \bassFigureExtendersOn
+  q2 q4 \bassFigureExtendersOff <6 5> %105
+  r1
+  <6 4>
+  <5 3>
+  <6 4>
+  <7 5> %110
+  <6 4>
+  <5 3>
+  <6 4>
+  <5 3>
+  <6 5>2 <\t 4> %115
+  <5 4> \bassFigureExtendersOn <5 3>4 <5 2>
+  <5 3>1 \bassFigureExtendersOff
+  <8 3>4 <7- 5> <6 4> <5 3>
+  <6 4>1
+  <5 3> %120
+  <6 4>
+  <7- 5>
+  <6 4>
+  <\t \t>2. <5 3>4
+  r1 %125
+  r
+  r
+  r
+  r4 <4 2>
+  <5> <6> %130
+  <6 5> <[7]>
+  r2
+  <6 5>4 \bo <[7]>
+  r \bc <[6]>
+  <9>8 <8>4. %135
+  <6 4>8 <5 3>4.
+  r8 <6!>4.
+  r8 <[5] _!> <6 4> <7 _!>
+  r2
+  <7>8 <6-> <6 5>4 %140
+  r8 <5> <6> <[_+]>
+  <7> <6> <6 5>4
+  <_!>2
+  <7+ 2>
+  <7! _!> %145
+  <5 3>4. <6>8
+  <6 4>2
+  <5 _!>
+  r
+  <5 3>8 <6 4> <5 3> <4 2> %150
+  <5 3>2
+  <3>4 <5>
+  <_!> <5!>
+  <3> <_!>8 <3>
+  <6 3\!> \bassFigureExtendersOn q q q \bassFigureExtendersOff %155
+  r2
+  <7! 2>
+  <7- 3>
+  <5>4. <6>8
+  <6 4>2 %160
+  <5 3>
+  r4 <6>
+  r q
+  r q8 <5>
+  <6 4> <5> <6 5>4 %165
+  r2 %166 finis
+}

@@ -478,3 +478,175 @@ SequentiaViola = {
     c8\pp r c r c4 r\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoOffertorium
+    c8\f c' c c h h
+    c, c' c c g g
+    c, c e e f f
+    c e f d c e
+    g, <g g'>4 q q8~ %5
+    q q4 q q8~
+    q q q c c c
+    f4 g g,
+    c r d
+    g, g g %10
+    g r g'(\p
+    a8) a a a g g
+    g g g g a a
+    g g g g g g
+    e e e e e e %15
+    a,4\f h r
+    a'(\p g fis)
+    g r r
+    a( g fis)
+    g r r %20
+    g,2.
+    a
+    g4 r r
+    g\fE r g\pE
+    e'8 e d d c\< c %25
+    h\f h d d g, g
+    c c d d d d
+    g, g' g g fis fis
+    g, g' g g d d
+    e e h h c c %30
+    d4 a'8 fis g h
+    d, d4 d d8~
+    d d4 d d8~
+    d h g f'! e d
+    c e4 e e8~ %35
+    e a, c e c a
+    d f a f d d'
+    h, d g d h g'
+    c, e g e c c'
+    a, c f c a f' %40
+    h, d f d h h'
+    gis, h e h gis e'
+    r16 e e e e e e e e e e e
+    r f\p f f f f f f f f f f
+    r c c c c c c c c c c c %45
+    r a a a a a a a f f f f
+    r gis gis gis r a a a r h h h
+    \once \slurDashed a8( e) e e e e
+    e4 r r
+    f' r r %50
+    h, r r
+    a r a\fE
+    e\p r e\f
+    f e e
+    e c'\p c %55
+    c2\< e8 g
+    f2.\p
+    g8 c, c c c c
+    c c c a'\f g e
+    c4 r r %60
+    b8\fp b b b b b
+    c c c c c c
+    d4 c c
+    c r g\f
+    c c c %65
+    c8\p c c c c c
+    d d d d d d
+    g, g g e'\f d h
+    g4 r r
+    f'8\fp f f f f f %70
+    g g g g g g
+    a4 g g
+    g r8 c,\f h a
+    g2~ g16 a h c
+    h8 <g d'>4\p q q8 %75
+    c c4 c c8
+    h <g d'>4 q q8
+    c c4 c c8
+    h g4 g g8
+    g c c c c c %80
+    f f g\< g g, g
+    c\f c c' c e, e
+    f f g g g, g
+    c4-! c-! c-! \noBreak
+    c8[-! r16 g]-! c4-! r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*2
+    r4 g\fE c2~
+    c4 a h2
+    c e4 d %90
+    c1
+    h4 h c d
+    e c e fis
+    g h,2 e4
+    a,2 d~ %95
+    d4 g, g2~
+    g4 f! f2
+    e4 e' e f8 e
+    d1
+    c4 e d c %100
+    c1
+    c,2 r
+    R1*3 %105
+    g''1
+    e2 c
+    h2. h4
+    c2 g'4 g
+    g \appoggiatura a16 g( fis g a) g4 g %110
+    g1~
+    g4 \appoggiatura a16 g( fis g a) g4 g
+    g1
+    g2 g~
+    g g4 g %115
+    g1~
+    g~
+    g4 b, a g
+    f2. f4
+    c2 c~ %120
+    c c'~
+    c c~
+    c c4 e,
+    f2 f4 g
+    f2 f4 b %125
+    a1\fermata
+    g1~ \noBreak
+    g\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      \mvTr c2\p \noBreak
+    d4 c %130
+    d c~
+    c d~
+    d c~
+    c a
+    b g %135
+    c8 c\f c4
+    r8 d\p f f
+    r g g g
+    r c,\f e c\fz
+    d4(\p e) %140
+    r8 f\f fis d\fzE
+    e4(\p fis)
+    g r
+    g r
+    g r %145
+    a4 r8 f
+    g\fp g g g
+    g,16\< g g g g g g g
+    c8\! e\p g e
+    c2~ %150
+    c8 c e c
+    f4 d
+    g e
+    a,8 a' g f
+    e\< f e d %155
+    c4\! r
+    c\p r
+    c r
+    d r8 b!
+    c\fp c c c %160
+    c16\< c c c c c c c
+    f8\! f4\fpE \tuplet 3/2 8 { d'16 c b }
+    a8 f4\fp \tuplet 3/2 8 { d'16 c b }
+    a8 c d\< f,
+    a\f a d b %165
+    a <a f> q4\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

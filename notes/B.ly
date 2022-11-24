@@ -533,3 +533,189 @@ SequentiaBassoLyrics = \lyricmode {
   a --
   men. %313 finis
 }
+
+OffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoOffertorium
+    \mvTr c'4.\f^\tutti c8 h4
+    c2 g4
+    a g f
+    e( d) c
+    h r r8 g' %5
+    e8. e16 e4 r8 g
+    c8. c,16 c4 r
+    R2.*20 %27
+    \mvTr g'4.\f^\tutti g8 fis4
+    g g d
+    e d c %30
+    h( a g)
+    fis r d'8 d
+    h8. h16 h8 g'([ fis)] d
+    g8. g,16 g4 e'8 d
+    c8. c16 c8 a'([ gis)] e %35
+    a8. a,16 a4 r8. a'16
+    d4 d, r
+    r r8 d h g16 h'
+    c4 c, r
+    r r8 c a f16 a' %40
+    h4 h, r
+    r r8 h gis' e16 e
+    a,4. a8 a a
+    d2.\p
+    c2 a'4 %45
+    f4. f8 f f
+    e2.~
+    e
+    a,4 r r
+    R2.*35 \noBreak %84
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      \mvTr c'1\f^\tutti \noBreak
+    a2 f
+    e2. f8 a
+    g4( f) e( d)
+    e( d) c d %90
+    e( c) e fis
+    g2 a4 h
+    c4. h8 a2
+    h4( g) e c
+    d1 %95
+    g,2 r
+    R1*3
+    c'1 %100
+    a2 f
+    e2. f8 a
+    g4( f) e( d)
+    e( d) c d
+    e( c) e fis %105
+    g1~
+    g~
+    g~
+    g~
+    g %110
+    g4 g g g
+    g1
+    g,4 g' g g
+    g2 g4 g
+    g2 g4 g %115
+    g1~
+    g2 g
+    c1
+    a2 f
+    e2. e4 %120
+    f2 g4 a
+    b2 b4 g
+    a2 a4 g
+    f2 f4 e
+    f1~ %125
+    f\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*20 %148
+    r8 \mvTr c'\pE^\solo c c
+    c4. c,8 %150
+    c4 r8 c
+    a a r f'
+    d d r g
+    c2
+    c,4 r %155
+    r r8 c'
+    h2
+    b4. b8
+    a4 b8 g
+    f2 %160
+    e
+    f4 r
+    R2*3 %165
+    R2\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}
+
+OffertoriumBassoLyrics = \lyricmode {
+  Do -- mi -- ne
+  Ie -- su
+  Chri -- ste, Rex
+  glo -- ri --
+  ae, Rex %5
+  glo -- ri -- ae, Rex
+  glo -- ri -- ae.
+
+  Li -- be -- ra
+  e -- as de
+  o -- re le -- %30
+  o --
+  nis, ne ab --
+  sor -- be -- at e -- as
+  tar -- ta -- rus, ne ab --
+  sor -- be -- at e -- as %35
+  tar -- ta -- rus, ne
+  ca -- dant,
+  ne ca -- dant, ne
+  ca -- dant,
+  ne ca -- dant, ne %40
+  ca -- dant,
+  ne ca -- dant, ne
+  ca -- dant in ob --
+  scu --
+  rum, ne %45
+  ca -- dant in ob --
+  scu --
+
+  rum.
+
+  Quam %86
+  o -- lim
+  A -- bra -- hae
+  pro -- mi --
+  si -- sti, et %90
+  se -- mi -- ni
+  e -- ius, et
+  se -- mi -- ni,
+  se -- mi -- ni
+  e -- %95
+  ius,
+
+  quam %100
+  o -- lim
+  A -- bra -- hae
+  pro -- mi --
+  si -- sti, et
+  se -- mi -- ni %105
+  e --
+
+  ius, quam pro -- mi -- %111
+  si --
+  sti, quam pro -- mi --
+  si -- sti, et
+  se -- mi -- ni %115
+  e --
+  ius,
+  quam
+  o -- lim
+  A -- bra -- %120
+  hae pro -- mi --
+  si -- sti, et
+  se -- mi -- ni,
+  se -- mi -- ni
+  e -- %125
+
+  ius. __
+
+  Fac e -- as, %149
+  Do -- mi -- %150
+  ne, de
+  mor -- te trans --
+  i -- re ad
+  vi --
+  tam,
+  fac
+  e --
+  as trans --
+  i -- re ad
+  vi -- %160
+  _
+  tam. %162 finis
+
+}

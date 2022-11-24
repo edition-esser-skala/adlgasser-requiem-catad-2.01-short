@@ -365,3 +365,160 @@ SequentiaFagottoI = {
     es8)\ppE r c r c4 r\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoOffertorium
+    \pa g'2.\f
+    g
+    r4 r \pd c
+    c h c
+    g r8 d'16 d d8 d %5
+    c4 r8 e16 e d8 h
+    c4 r8 c16 c c8 c
+    c f~ f16 e c e e d c h
+    c4. e8 d c
+    h e d( e d c) %10
+    h4 r r
+    R2.*4 %15
+    r4 r8 d\pE( h g)
+    d4 r r
+    r r8 d'( h g)
+    d4 r r
+    r r8 g( h d,) %20
+    cis2.
+    c
+    h4 r r
+    R2.*2 %25
+    r4 d'\f f!
+    e8 e~ e16 d h d d c h a
+    h4 d d~
+    d d d
+    h2 c4 %30
+    g c h
+    a a a
+    g2 fis4
+    \pa g2 h4
+    c2 e4 %35
+    e2.
+    d~
+    d
+    c~
+    c %40
+    h~
+    h
+    a2 c4 \pd
+    h r r
+    R2.*4 %48
+    c2.\pE
+    d %50
+    h
+    a
+    \pa c2 e4\f
+    f e d \pd
+    c r r %55
+    g2.\<
+    f4\! r r
+    R2.
+    r4 r8 \pa a\f g g
+    f4 \pd r r %60
+    R2.*3
+    r4 r8 \pa \mvDl d'\f e d \pd
+    c4 r r %65
+    R2.*2
+    r4 r8 c\f h f'
+    e4 r r
+    R2.*3 %72
+    r4 r8 \pa \mvDl c\f d d
+    d4 \pd d d
+    f2.\p %75
+    e
+    h
+    c
+    \pa f4. h,8 c d \pd
+    e r r4 r %80
+    r8 f e4 d
+    e\f g e
+    c8 f~ f16 e d c e d c h
+    c8 a g a g f \noBreak
+    e4 r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*2
+    \pa r4 g\fE c2~
+    c4 a h2
+    c e4 d %90
+    c1
+    h4 h c d
+    e c e fis
+    g h,2 e4
+    a,2 d %95
+    d4 g, g2~
+    g4 f! f2
+    e4 e' e f8 e
+    d1
+    c4 e d c %100
+    c1
+    c,2 r
+    R1*3 %105
+    g''1
+    e2 c
+    h1
+    c2 d4 e
+    f2. d4 %110
+    e2 d4 c
+    h1
+    c2 d4 e
+    d c h g
+    e'2. d8 c %115
+    d1~
+    d
+    c4 b a g
+    f1
+    c2 c~ %120
+    c c'
+    c1~
+    c2 c4 e,
+    f2. g4
+    f1 \pd %125
+    f\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*3 %131
+    \pa r8 c'\pE f4~
+    f8 e16 d c8 b\trill
+    a4 r8 f
+    d'4. g8 \pd %135
+    f e r4
+    R2*2
+    r4 r8 c~
+    c b c16( b a b) %140
+    a4 d~
+    d8 c d16( c h c)
+    h8 d4 d8
+    c2
+    d %145
+    c4 d8 f
+    e\fpE g4 e8
+    d f4 d8
+    c4 r
+    R2 %150
+    r8 g4 e'8
+    r a,4 f'8
+    r h,4 g'8
+    e4. f8
+    g r r4 %155
+    r8 c,4 c8
+    h2
+    b
+    a4 d8 g
+    f\fpE a4 f8 %160
+    e g4 e8
+    f r d4\fpE
+    c8 r d4\fpE
+    c8 r r4
+    r8 d\fE b c %165
+    f,4 r\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

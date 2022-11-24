@@ -224,3 +224,81 @@ SequentiaTromboneI = {
     R1\fermata \bar "|." %314
   }
 }
+
+OffertoriumTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoOffertorium
+    g'4.\f g8 g4
+    g2 g4
+    c, e f
+    c f e
+    d r r8 g %5
+    g4 g r8 g
+    g4 g r
+    R2.*20 %27
+    g4.\f g8 a4
+    g d d
+    g, h c %30
+    g c h
+    a r d8. d16
+    d4 d d8 d
+    d4 d e8. e16
+    e4 e e8 e %35
+    e4 e r
+    r r8 a f d
+    R2.
+    r4 r8 g e c
+    R2. %40
+    r4 r8 f d h
+    r4 r r8. e16
+    e2.
+    h\p
+    c4 r r %45
+    R2.*2
+    e2.~\p
+    e4 r r
+    R2.*35 \noBreak %84
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*8 %93
+    r4 d\fE g2~
+    g4 e fis4. fis8 %95
+    g2 h4 g
+    c a4. f!8 e d
+    g2. a8 g
+    f1
+    e4 g f e %100
+    f2. g8 a
+    g4 g2 a4
+    d,2 g~
+    g4 g g2~
+    g4 g2 a8 fis %105
+    d4 c h d
+    c4. d8 e2
+    d4 e8 f g2
+    g1~
+    g4 g g g %110
+    g1
+    g,4 g' g g
+    g1
+    g2 g
+    g g4 g %115
+    g1~
+    g
+    g2 r
+    R1
+    c %120
+    a2 f
+    e2. e4
+    f2 f4 g
+    a2 a4 b
+    a2 a4 g %125
+    f1\fermata
+    e1~ \noBreak
+    e\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*37 \noBreak %155
+    R2\fermata \markQuamDaCapo \bar "||" %156 finis
+  }
+}

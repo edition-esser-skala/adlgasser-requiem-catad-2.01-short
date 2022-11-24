@@ -361,3 +361,143 @@ SequentiaOboeI = {
     R1\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    e'2\f f4
+    e2 d4
+    \pa c h a
+    g2 a8 g \pd
+    g4 r8 h16 h h8 h %5
+    c4 r8 c16 c d8 d
+    e4 r8 e16 e g8 b,
+    a f'~ f16 e c e e d c h
+    c8 e4 \pa c8 a fis
+    g4 \pd r r %10
+    R2.*5 %15
+    r4 r8 \mvDl d'(\pE h g)
+    d4 r r
+    r r8 d'( h g)
+    d4 r r
+    r r8 g( h d,) %20
+    e r r4 r
+    R2.
+    r4 h'\pE\crescE c
+    d\fE r r
+    R2. %25
+    r4 d\f f!
+    e8 e~ e16 d h d d c h a
+    h2 c4
+    h2 a4
+    \pa g fis e %30
+    d2 e8 d
+    d4 \pd fis fis
+    g2 a4
+    h2 gis4
+    a2 h4 %35
+    c2 e4
+    f2.~
+    f
+    e~
+    e %40
+    d~
+    d
+    c2 a4
+    gis r r
+    R2.*4 %48
+    e'2.\pE
+    f %50
+    gis,
+    a
+    e'
+    d4\f c h
+    \pao a r r %55
+    e'2.\<
+    f4\! r r
+    R2.
+    r4 r8 a\f b e,
+    f4 r r %60
+    R2.*3
+    r4 r8 a\f g h,!
+    c4 r r %65
+    R2.*2
+    r4 r8 \pa e\f f h, \pd
+    c4 r r
+    R2.*3 %72
+    r4 r8 \pa e\f d c \pd
+    h4 d d
+    d2.\p %75
+    e
+    f
+    e
+    d4. f8 e d
+    g r r4 r %80
+    r8 f e4 d
+    c\f e g
+    a8 f~ f16 e d c e d c h
+    c8 a g a g f \noBreak
+    e4 r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*6 %91
+    g'1\f
+    e2 c
+    \pa h2. c8 e
+    d4 c h a %95
+    h a g h
+    a h8 c d2~
+    d4 g, c2~
+    c4 d8 c h2
+    c r %100
+    R1
+    r4 g c2~
+    c4 a h2
+    c e4 d
+    c1 %105
+    h2 r
+    R1
+    g'
+    e2 c
+    h1 %110
+    c2 d4 e
+    f2. d4
+    e2 d4 c
+    h c d2~
+    d4 g, c2~ %115
+    c h4 a
+    h1
+    c4 g f e
+    f4. g8 a2
+    g c %120
+    c1~
+    c2 c~
+    c c~
+    c c~
+    c4 f \pd a g %125
+    f1\fermata
+    e~ \noBreak
+    e\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*14 %142
+    r8 g4\p g8
+    fis2
+    f %145
+    e4 f
+    e8\fpE g4 e8
+    d f4 h,8
+    c4 r
+    R2*6 %155
+    r8 c4\p c8
+    d2
+    e
+    f4 d8 g
+    f\fpE a4 f8 %160
+    e g4 e8
+    f r d4\fpE
+    c8 r d4\fpE
+    c8 r r4
+    r8 f4\fE r8 %165
+    f4 r\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

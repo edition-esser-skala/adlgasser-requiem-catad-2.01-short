@@ -114,3 +114,79 @@ SequentiaTimpani = {
     R1\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoOffertorium
+    c4\f r r
+    c r g8. g16
+    c4 r r
+    R2.
+    g4 r r8 g %5
+    c4 r r8 g
+    c4 r r
+    r g g8. g16
+    c4 r r
+    R2.*16 %25
+    g4\f r r
+    R2.
+    g4 r r
+    g r r
+    g r r %30
+    R2.*2
+    g4 r r
+    g r r
+    R2.*29 %63
+    r4 r g8.\f g16
+    c4 r r %65
+    R2.*7 %72
+    r4 r r8 c\f
+    g4 r r
+    R2.*7 %81
+    c4\f r c8. c16
+    c4 r r
+    c c c \noBreak
+    c r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*6 %91
+    g2\f r
+    R1
+    g2 r
+    R1 %95
+    g2 r
+    R1*3
+    c2 r %100
+    R1
+    c2 r
+    R1
+    c2 r
+    r4 c c c %105
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r %110
+    R1
+    g2 r
+    R1
+    g2 r
+    g r %115
+    r4 g8 g g4 g
+    g2 g4. g8
+    c2 r
+    R1
+    c2 r %120
+    R1
+    c2 r
+    R1
+    c2 r
+    c4 c8 c c4 c %125
+    c1\trill\fermata
+    c~
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*37 \noBreak %155
+    R2\fermata \markQuamDaCapo \bar "||" %156 finis
+  }
+}

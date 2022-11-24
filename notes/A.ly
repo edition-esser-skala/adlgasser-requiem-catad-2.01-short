@@ -545,3 +545,202 @@ SequentiaAltoLyrics = \lyricmode {
   a -- men, a --
   men. %313 finis
 }
+
+OffertoriumAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoOffertorium
+    \mvTr g'4.\f^\tutti g8 g4
+    g2 g4
+    c, e f
+    c( f) e
+    d r r8 g %5
+    g8. g16 g4 r8 g
+    g8. g16 g4 r
+    R2.*20 %27
+    \mvTr g4.\f^\tutti g8 a4
+    g d d
+    g, h c %30
+    g( c h)
+    a r d8 d
+    d8. d16 d4 d8 d
+    d8. d16 d4 e8 e
+    e8. e16 e4 e8 e %35
+    e8. e16 e4 r
+    r r8 a f d
+    R2.
+    r4 r8 g e c
+    R2. %40
+    r4 r8 f d h
+    r4 r r8. e16
+    e4. e8 e e
+    h2.\p
+    c4 r e8 a, %45
+    c2 a4
+    h( c) d
+    c( h2)
+    a4 r r
+    R2.*15 %64
+    r4 r r8 \mvTr g'\pE^\solo %65
+    g4. c8 h([ a)]
+    g2 f4
+    e8. e16 e4 r
+    R2.
+    c4. d16([ e)] f([ g)] a([ h)] %70
+    c8.([ g16)] g4 r8 g
+    f4( e) d
+    e16([ d c d)] c4 r
+    R2.*2 %75
+    e4 e8 g g e
+    \appoggiatura g16 f8 e16([ d)] d4 r
+    e4. g8 g e
+    \appoggiatura g16 f8([ e16 d)] d4 r
+    g c8([ h)] a([ g)] %80
+    g16([ f)] a([ f)] e4( d)
+    c r r
+    R2.*2 \noBreak
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*8 %93
+    r4 \mvTr d\f^\tuttiE g2~
+    g4 e fis4. fis8 %95
+    g2 h4 g
+    c a4.( f!8) e([ d)]
+    g2. a8 g
+    f1
+    e4 g f e %100
+    f2. g8([ a)]
+    g4 g2 a4
+    d,2 g~
+    g4 g g2~
+    g4 g2 a8([ fis)] %105
+    d4( c) h d
+    c4. d8 e2
+    d4 e8 f g2
+    g1~
+    g4 g g g %110
+    g1
+    g,4 g' g g
+    g1
+    g2 g
+    g g4 g %115
+    g1~
+    g
+    g2 r
+    R1
+    c %120
+    a2 f
+    e2. e4
+    f2 f4 g
+    a2 a4 b
+    a2 a4 g %125
+    f1\fermata
+    e1~ \noBreak
+    e\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*14 %142
+    r4 \mvTr g8\pE^\solo h
+    a8. a16 a8 a
+    h8. h16 h8 h %145
+    c4 a8 f
+    e2
+    d4. d8
+    c4 r
+    R2*16 \noBreak %155
+    R2\fermata \markQuamDaCapo \bar "||" %156 finis
+  }
+}
+
+OffertoriumAltoLyrics = \lyricmode {
+  Do -- mi -- ne
+  Ie -- su
+  Chri -- ste, Rex
+  glo -- ri --
+  ae, Rex %5
+  glo -- ri -- ae, Rex
+  glo -- ri -- ae.
+
+  Li -- be -- ra
+  e -- as de
+  o -- re le -- %30
+  o --
+  nis, ne ab --
+  sor -- be -- at e -- as
+  tar -- ta -- rus, ne ab --
+  sor -- be -- at e -- as %35
+  tar -- ta -- rus,
+  ne ca -- dant,
+
+  ne ca -- dant,
+  %40
+  ne ca -- dant,
+  ne
+  ca -- dant in ob --
+  scu --
+  rum, in ob -- %45
+  scu -- rum,
+  in __ ob --
+  scu --
+  rum.
+
+  Sed %65
+  si -- gni -- fer __
+  san -- ctus
+  Mi -- cha -- el
+
+  re -- prae -- sen -- tet %70
+  e -- as in
+  lu -- cem
+  san -- ctam,
+
+  si -- gni -- fer san -- ctus %76
+  Mi -- cha -- el
+  re -- prae -- sen -- tet
+  e -- as
+  in lu -- cem, %80
+  lu -- cem san --
+  ctam.
+
+  Quam o -- %94
+  lim A -- bra -- %95
+  hae pro -- mi --
+  si -- sti, __ et __
+  se -- mi -- ni
+  e --
+  ius, quam o -- lim %100
+  A -- bra --
+  hae pro -- mi --
+  si -- sti, __
+  et se --
+  mi -- ni __ %105
+  e -- ius, et
+  se -- mi -- ni,
+  se -- mi -- ni e --
+  ius, __
+  quam pro -- mi -- %110
+  si --
+  sti, quam pro -- mi --
+  si --
+  sti, et
+  se -- mi -- ni %115
+  e --
+
+  ius,
+
+  quam %120
+  o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- sti, et
+  se -- mi -- ni %125
+  e --
+  ius. __
+
+  Qua -- rum %143
+  ho -- di -- e me --
+  mo -- ri -- am, me -- %145
+  mo -- ri -- am
+  fa --
+  _ ci --
+  mus. %149 finis
+}

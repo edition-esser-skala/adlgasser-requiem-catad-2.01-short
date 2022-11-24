@@ -446,3 +446,178 @@ SequentiaViolinoII = {
     c8\pp g c g c4 r\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    c'8\f g4 g g8
+    c g4 g8 h16( a h d)
+    c( d c d) h( c h c) a( h a h)
+    g8 c, g f' e g
+    <d g,>[ \appoggiatura c'32 h( a h c)] h8[ \appoggiatura e32 d( cis d e)] d8 r %5
+    g,[ \appoggiatura d'32 c( h c d)] c8[ \appoggiatura f32 e32( d e f)] g16( d g f)
+    f( e d e) e( c e c) g' g,32( a) b16-! b-!
+    a f'32( g) a16-! f-! f( e c e) \appoggiatura e d8( c16 h)
+    c8 e-! c-! e,( c) a(
+    h) c h( c h a) %10
+    g4 r c'~\p
+    c8 c c c h h
+    c c c c c c
+    ais( h) h h h h
+    a a a a a a %15
+    fis4-!\f g-! r
+    c,(\p h a)
+    h r r
+    c( h a)
+    <g d'> r r %20
+    cis2.
+    c(
+    h4) g'\cresc fis
+    h8.\f g16 e'8(\p d c h)
+    a16 a a a g g g g fis\< fis fis fis %25
+    g\f d e fis g a h c d d,32( e) f16-! f-!
+    e c'32( d) e16-! c-! c( h g h) \appoggiatura h a8( g16 fis)
+    g8 <d d'>4 q q8
+    g <d d'>4 q8 fis'16( e fis a)
+    g16( a g a) fis( g fis g) e( fis e fis) %30
+    d8 g, fis c' h d
+    a fis16 a fis a fis d d' c h a
+    g d e fis g a h c a h c d
+    h c d c h a gis a gis h a gis
+    a e fis gis a h c a h c d h %35
+    c a g! f! e d c h a a'( c e)
+    d( d,) d-! d-! d( f) d-! d-! d( a') a-! a-!
+    h d8 h16 d h8 g16 d h'8 d16
+    c( c,) c-! c-! c( e) c-! c-! c( g') g-! g-!
+    a c8 a16 c a8 f16 c a'8 c16 %40
+    h( h,) h-! h-! h( d) h-! h-! h( f') f-! f-!
+    e d'8 gis,16 d' gis,8 e16 d' h8 gis16
+    r a16 a a a a a a a a a a
+    r h\p h h h h h h h h h h
+    r e, e e e e e e e e e e %45
+    r a, a a a a a a a a a a
+    r h h h r c c c r d d d
+    \once \slurDashed c8( a) a a gis gis
+    a4 a'32(\fpE h c8.) a,4
+    r h'32(\fp c d8.) h,4 %50
+    r gis'32(\fp a h8.) gis,4
+    a16( gis a gis) a( gis a h) c(\f h c h)
+    a(\p gis a gis) a( gis a h) c(\f h c a)
+    h( f' d h) c( e c a) h( d h gis)
+    a4 r r %55
+    b2\< b'4
+    a2.\p
+    c8 g g g g g
+    f16( g f g) f8 c4\f c8
+    c r f'16 e d c b a g f %60
+    <d b'>8\fp f f f f f
+    f f f f f f
+    g4( f e)
+    f8 a'( f) d,(\f e f)
+    e-! f( e d) c-\parenthesize-! r %65
+    g'4.\p c8( h a)
+    g g g g f f
+    e16( f e f) e8 <g g,>4\f q8~
+    g r c16 h a g f e d c
+    <c f a>8\fpE c' c c c c %70
+    c c c c c c
+    d4( c h)
+    c r8 c,\f h a
+    g4~ g16 a h c h c d e
+    d8 <f g,>4\p q q8 %75
+    <e g,> q4 q q8
+    <f g,> q4 q q8
+    <e g,> q4 q q8
+    <d g,> \appoggiatura c'32 h(-\critnote a h c) h8 d( c h)
+    c g4 g g8 %80
+    g16( f a f) e(\< c') c-! c-! d,( h') h-! h-!
+    c\f g a h c d e f g g,32( a) b16-! b-!
+    a f'32( g) a16-! f-! f( e c e) \appoggiatura e d8( c16 h)
+    c8 f,-! e-! f-! e-! d-! \noBreak
+    c[-! r16 g]-! c4-! r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1 \noBreak
+    r4 f\f a h
+    c1
+    d
+    c2 g8 a f g %90
+    e4 e'8 c g e d a'
+    <h d, g,>2 r
+    R1
+    r4 d, g2~
+    g4 e fis4. fis8 %95
+    g2 h4 g
+    c a4~ a8 f! e d
+    g2. a8 g
+    f1
+    e4 g f e %100
+    f2. g8 a
+    g4 g2 a4
+    d,2 g~
+    g4 g g2~
+    g4 g2 a8 fis %105
+    d4 c h d
+    c4. d8 e2
+    d4 e8 f g2~
+    g4 c, d e
+    f2. d4 %110
+    e2 d4 c
+    h1
+    c4 c d e
+    d c h c8 d
+    e2. d8 c %115
+    d1~
+    d4 d d d
+    c2 r
+    R1
+    c'1 %120
+    a2 f
+    e2. e4
+    f2 f4 g
+    a2 a4 b
+    a2 a4 g %125
+    f1\fermata
+    e~ \noBreak
+    e\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      f2~\p \noBreak
+    f~ %130
+    f4 e
+    f a
+    g2
+    f~
+    f8 g16 a b b, b'\< g %135
+    f e32(\f f) e16-! e-! e8 e
+    r f\p h h
+    r h( c d)
+    r g,\f g e\fz
+    f4(\p g) %140
+    r8 a\f a fis\fz
+    g4(\p a)
+    d,16 h'8 h h h16
+    r a8 a a a16
+    r <h d,>8 q q q16 %145
+    r c8 c16 a( f a f)
+    e\fp c' c c c c c c
+    h\< d d d d d d d
+    c8\! r r4
+    r8 f,(\p e d) %150
+    c4 r
+    r8 a32( c f a) f8 r
+    r h,32( d g h) g8 r
+    r c,16 c' c( h) h( a)
+    a(\< g) g( a) a( g) g( f) %155
+    e\! e8\p e e e16
+    r h'8 h h h16
+    r b8 b b b16
+    r a8 a16 d(\< b g' g,)
+    f\fpE f' f f f f f f %160
+    e\< e e e e e e e
+    f8\! <f a,>~\fp \tuplet 3/2 8 { f16 g a b[ c d] }
+    c8 <f, a,>~\fp \tuplet 3/2 8 { f16 g a b[ c d] }
+    c16. c32 b16. a32 g16.\< f32 e16. d32
+    c8\f f4 e8 %165
+    f8 <a c, f,> q4\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}

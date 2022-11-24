@@ -125,3 +125,91 @@ SequentiaClarinoI = {
     R1\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    e'4\f r r
+    e r d8. d16
+    c4 r r
+    R2.
+    \pao g4 r r8 d' %5
+    c4 r r8 d
+    e4 r r
+    r e d8. d16
+    c4 r r
+    R2.*16 %25
+    g'4\f r r
+    e \pa d d8. d16 \pd
+    d4 r r
+    d r \pa d8. d16 \pd
+    g4 r r %30
+    R2.
+    \pao d4 r \pa d8. d16 \pd
+    d4 r8 \pa d d d \pd
+    d4 r e8. e16
+    e4 r8 e e e %35
+    e4 r r
+    R2.*17 %53
+    r4 e\f e8. e16
+    e4 r r %55
+    R2.*3
+    r4 r8 c\f c c
+    c4 r r %60
+    R2.*3
+    r4 r \pa g8.\f g16 \pd
+    c4 r r %65
+    R2.*2
+    r4 r8 g'\f g g
+    g4 r r
+    R2.*3 %72
+    r4 r r8 c,\f
+    \pao g4 r r
+    R2.*7 %81
+    c4\f r c8. c16
+    c4 r r
+    c c c \noBreak
+    c r r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*6 %91
+    g'2\f r
+    R1
+    g2 r
+    r4 \pa d d d \pd %95
+    d2 r
+    R1*3
+    c2 r %100
+    R1
+    c2 r
+    R1
+    c2 r
+    r4 c c c %105
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 r %110
+    R1
+    g2 r
+    R1
+    g2 r
+    g r %115
+    r4 g8 g g4 g
+    g2 g4. g8
+    c2 r
+    R1
+    c2 r %120
+    R1
+    c2 r
+    R1
+    c2 r
+    c4 c8 c c4 c %125
+    c1\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*37 \noBreak %155
+    R2\fermata \markQuamDaCapo \bar "||" %156 finis
+  }
+}

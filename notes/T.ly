@@ -528,6 +528,215 @@ SequentiaTenoreLyrics = \lyricmode {
   do -- na e --
   i re -- qui -- %310
   em, a -- men,
-  a -- 
+  a --
   men. %313 finis
+}
+
+OffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoOffertorium
+    \mvTr c4.\f^\tutti c8 d4
+    c2 h4
+    a h c
+    g( h) c
+    g r r8 d' %5
+    e8. e16 e4 r8 h
+    c8. c16 c4 r
+    R2.*20 %27
+    \mvTr d4.\f^\tutti d8 d4
+    d g, fis
+    e fis g %30
+    d( fis g)
+    d r a'8 a
+    h8. h16 h8 d4 fis,8
+    g8. g16 g4 h8 gis
+    a8. a16 a8 e'4 gis,8 %35
+    a8. a16 a4 r
+    r r r8. f'16
+    f([ d)] h d h8 g r4
+    r r r8. e'16
+    e([ c)] a c a8 f r4 %40
+    r r r8. d'16
+    d([ h)] gis h gis8 e r8. gis16
+    a4. a8 a a
+    f'2.\p
+    e4 e c %45
+    a2.
+    gis4 a h
+    a2( gis4)
+    a r r
+    R2.*6 %55
+    r4 r r8 \mvTr c\pE^\solo
+    c4. f8 e([ d)]
+    c2 b4
+    a8. a16 a4 r
+    R2. %60
+    f4. g16([ a)] b([ c)] d([ e)]
+    f8.([ c16)] c4 r8 c
+    b4( a) g
+    a16([ g f g)] f4 r
+    R2.*10 %74
+    h4 h8 \appoggiatura { d16[ e] } f8 e d %75
+    c8. g16 g4 r
+    h4. f'8 f d
+    c([ g)] g4 r
+    h h8([ f')] e([ d)]
+    c2 c4 %80
+    a8 f'16([ d)] c4( h)
+    c r r
+    R2.*2 \noBreak
+    R2.\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      R1*2
+    r4 \mvTr g\fE^\tutti c2~
+    c4 a h4. h8
+    c2 e4 d %90
+    c1
+    h4 h c d
+    e( c) e fis
+    g h,2 e4
+    a,2( d) %95
+    d4 g, g2~
+    g4 f! f2
+    e4 e' e f8 e
+    d1
+    c4 e d c %100
+    c1
+    c,2 r
+    R1*3 %105
+    g''1
+    e2 c
+    h2. h4
+    c2 d4 e
+    f2 f4 d %110
+    e2 d4 c
+    h1
+    c4 c d e
+    d( c) h g
+    e'2. d8 c %115
+    d1~
+    d
+    c4 b a g
+    f2. f4
+    c2 c~ %120
+    c c'
+    c1~
+    c2 c4 e,
+    f2 f4 g
+    f2 f4 b %125
+    a1\fermata
+    g~ \noBreak
+    g\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      R2*27 %155
+    r4 r8 \mvTr c\pE^\soloE
+    d2
+    e4. e8
+    f4 d8 b
+    a2 %160
+    g
+    f4 r
+    R2*3 %165
+    R2\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}
+
+OffertoriumTenoreLyrics = \lyricmode {
+  Do -- mi -- ne
+  Ie -- su
+  Chri -- ste, Rex
+  glo -- ri --
+  ae, Rex %5
+  glo -- ri -- ae, Rex
+  glo -- ri -- ae.
+
+  Li -- be -- ra
+  e -- as de
+  o -- re le -- %30
+  o --
+  nis, ne ab --
+  sor -- be -- at e -- as
+  tar -- ta -- rus, ne ab --
+  sor -- be -- at e -- as %35
+  tar -- ta -- rus,
+  ne
+  ca -- dant, ne ca -- dant,
+  ne
+  ca -- dant, ne ca -- dant, %40
+  ne
+  ca -- dant, ne ca -- dant, ne
+  ca -- dant in ob --
+  scu --
+  rum, in ob -- %45
+  scu --
+  rum, in ob --
+  scu --
+  rum.
+
+  Sed %56
+  si -- gni -- fer __
+  san -- ctus
+  Mi -- cha -- el
+  %60
+  re -- prae -- sen -- tet
+  e -- as in
+  lu -- cem
+  san -- ctam,
+
+  si -- gni -- fer san -- ctus %75
+  Mi -- cha -- el
+  re -- prae -- sen -- tet
+  e -- as
+  in lu -- cem
+  san -- ctam, %80
+  lu -- cem san --
+  ctam.
+
+  Quam o -- %88
+  lim A -- bra --
+  hae pro -- mi -- %90
+  si --
+  sti, quam pro -- mi --
+  si -- sti, et
+  se -- mi -- ni
+  e -- %95
+  ius, quam pro --
+  mi -- si --
+  sti, et se -- mi -- ni
+  e --
+  ius, quam pro -- mi -- %100
+  si --
+  sti,
+
+  quam %106
+  o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- sti, et %110
+  se -- mi -- ni
+  e --
+  ius, quam pro -- mi --
+  si -- sti, et
+  se -- mi -- ni %115
+  e --
+
+  ius, quam o -- lim
+  A -- bra --
+  hae pro -- %120
+  mi --
+  si --
+  sti, et
+  se -- mi -- ni,
+  se -- mi -- ni %125
+  e --
+  ius. __
+
+  Fac %156
+  e --
+  as trans --
+  i -- re ad
+  vi -- %160
+  _
+  tam. %162 finis
 }

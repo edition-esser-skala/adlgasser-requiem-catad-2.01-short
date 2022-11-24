@@ -446,3 +446,178 @@ SequentiaViolinoI = {
     c8\pp g c g c4 r\fermata \bar "|." %314 finis
   }
 }
+
+OffertoriumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    <g' e'>8\f e'4 e8 f16( e f d)
+    <e g,>8 e4 e8 d16( c d h)
+    c( d c d) h( c h c) a( h a h)
+    g8 <g g,>4 q8 a([ g)]
+    g[ \appoggiatura c32 h( a h c)] h8[ \appoggiatura e32 d( cis d e)] d8 r %5
+    g,[ \appoggiatura d'32 c( h c d)] c8[ \appoggiatura f32 e32( d e f)] g16( d g h,)
+    d( c h c) g( c e c) g' g,32( a) b16-! b-!
+    a a'32( h!) c16-! a-! a( g e g) \appoggiatura g f8( e16 d)
+    c8 g'-! e-! c( a) fis(
+    g) e d( e d c) %10
+    h4 r e'(\p
+    d8) d d d d d
+    e e e e d d
+    d d d d d d
+    c c c c c c %15
+    <a d,>4-!\f g-! r
+    a16(\p d,) d-! d-! h'( d,) d-! d-! c'( d,) d-! d-!
+    h' d, e fis g a h c d e fis g
+    a,( d,) d-! d-! h'( d,) d-! d-! c'( d,) d-! d-!
+    h' d, e fis g a h c d e fis g %20
+    e,2.
+    d~
+    d8[ r16 g h8.\cresc g16 c8. a16]
+    d8.\f h16 g'8(\p fis e d)
+    a16 a a a <h d,> q q q <a d,>\< q q q %25
+    g\f d e fis g a h c d d,32( e) f16-! f-!
+    e e'32( fis) g16-! e-! e( d h d) \appoggiatura d c8( h16 a)
+    g8 h'4 h8 c16( h c a)
+    h8 h4 h8 a16( g a fis)
+    g( a g a) fis( g fis g) e( fis e fis) %30
+    d8 <d d,>4 q8 e([ d)]
+    d16( cis d a) fis a fis d d' c h a
+    g d e fis g a h c a h c d
+    h c d c h a gis a gis h a gis
+    a e fis gis a h c a h c d h %35
+    c a g! f! e d c h a a'( c e)
+    f( f,) f-! f-! f( a) d,-! d-! d( f') f-! f-!
+    f d8 h16 d h8 g16 f' d8 h16
+    e( e,) e-! e-! e( g) c,-! c-! c( e') e-! e-!
+    e c8 a16 c a8 f16 e' c8 a16 %40
+    d( d,) d-! d-! d( f) h,-! h-! h( d') d-! d-!
+    d h8 gis16 h gis8 e16 h'' d,8 h16
+    r c16 c c c c c c c c c c
+    r gis\p gis gis gis gis gis gis gis gis gis gis
+    r a a a a a a a a a a a %45
+    r dis, dis dis dis dis dis dis dis dis dis dis
+    r e e e r e e e r e e e
+    e8( c) h h h h
+    a4 c'32(\fpE d e8.) c,4
+    r d'32(\fp e f8.) d,4 %50
+    r h'32(\fp c d8.) h,4
+    a16( gis a gis) a( gis a h) c(\f h c h)
+    a(\p gis a gis) a( gis a h) c(\f h c a)
+    h( f' d h) c( e c a) h( d h gis)
+    a4 c'\p c %55
+    c8(\< d e f g! e)
+    f\p c4 f8( e d)
+    c c c c b b
+    a16( b a b) a c'(\fE a f) e( b' g e)
+    f g a g f e d c b a g f %60
+    d'8\fp d d d d d
+    c c c c c c
+    b4( a g)
+    f8 c''( a) f(\f g h,)
+    c-! a( g f) e-! r %65
+    e'2.\p
+    g8 d d d d d
+    c16( d c d) c-! g'(\fE e c) h( f' d h)
+    c d e d c h a g f e d c
+    a'8\fp a' a a a a %70
+    g g g g g g
+    f4( e d)
+    e16( d c d) c8 c,\f h a
+    g2.
+    r16 h'-!\p d-! h-! d-! h-! d-! h-! d8 r %75
+    r16 e-! g-! e-! g-! e-! g-! e-! g8 r
+    r16 h,-! d-! h-! d-! h-! d-! h-! d8 r
+    r16 e-! g-! e-! g-! e-! g-! e-! g8 r
+    g,,[ \appoggiatura e''32 d( cis d e)] d8( f e d)
+    g16 a f g e f d e c d h c %80
+    a a'( f d) c(\< e) e-! e-! g( d) d-! d-!
+    c\f g a h c d e f g g,32( a) b16-! b-!
+    a a'32( h!) c16-! a-! a( g f e) \appoggiatura g f8( e16 d)
+    c8 a-! g-! a-! g-! f-! \noBreak
+    e[-! r16 g,]-! c4-! r\fermata \bar "||" %85
+    \time 2/2 \tempoQuam \newSpacingSection
+      r4 c'\f d e \noBreak
+    f c a f
+    g2. a4
+    d,2 g
+    c, r %90
+    R1
+    g''
+    e2 c
+    h2. c8 e
+    d4 c h a %95
+    h a g h
+    a h8 c d2~
+    d4 g, c2~
+    c4 d8 c h2
+    c r %100
+    R1
+    r4 g c2~
+    c4 a h4. h8
+    c2 e4 d
+    c1 %105
+    h2 r
+    R1
+    g'
+    e2 c
+    h2. h4 %110
+    c2 d4 e
+    f2. d4
+    e2 d4 c
+    h c d2~
+    d4 g, c2~ %115
+    c h4 a
+    h1
+    c4 g f e
+    f4. g8 a2
+    g c %120
+    c1~
+    c2 c~
+    c4 \appoggiatura d16 c( h c d) c4 c~
+    c \appoggiatura d16 c( h c d) c4 c
+    c1~ %125
+    c\fermata
+    c~ \noBreak
+    c\fermata \bar "||"
+    \twofourtime \key f \major \time 2/4 \tempoVersus \newSpacingSection
+      a2~\p \noBreak
+    a %130
+    g
+    a4 f'~
+    f e
+    f c
+    d4. d16\< b %135
+    a16 g32(\f a) g16-! g-! g8 c
+    r h\p d d
+    r d( e f)
+    r \appoggiatura f32 e(\f d e g) c,4~\fz
+    c16 b!(\p a b) c( b a b) %140
+    a8 \appoggiatura g'32 f(\f e f a) d,4~\fz
+    d16 c(\p h! c) d( c h c)
+    h g'8 g g g16
+    r fis8 fis fis fis16
+    r f8 f f f16 %145
+    r e8 e16 f( d f d)
+    c\fp e e e e e e e
+    d\< h' h h h h h h
+    c8\! r r4
+    r8 a,(\p g f) %150
+    e4 r
+    r8 a,32( c f a) f8 r
+    r h,32( d g h) g8 r
+    r c,16 c' c( h) h( a)
+    a(\< g) g( a) a( g) g( f) %155
+    e\! c'8\p c c c16
+    r d8 d d d16
+    r e8 e e e16
+    r f8 f16~ f\< d( b' b,)
+    a\fpE a' a a a a a a %160
+    g\< g g g g g g g
+    f8\! <f a,>~\fp \tuplet 3/2 8 { f16 g a b[ c d] }
+    c8 <f, a,>~\fp \tuplet 3/2 8 { f16 g a b[ c d] }
+    c16. c32 b16. a32 g16.\< f32 e16. d32
+    c8\f[ \appoggiatura g'32 f( e f g)] g4\trill %165
+    f8 <a c, f,> q4\fermata \markQuamDaCapo \bar "||" %166 finis
+  }
+}
