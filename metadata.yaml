@@ -1,11 +1,11 @@
-composer: Adlgasser
-  last: Anton
-  first: Cajetan
+composer:
+  last: Adlgasser
+  first: Anton Cajetan
 title: Requiem
-subtitle: Viennese abbreviated version
+subtitle: Viennese abridged version
 id: AWV 2.01
 genre: requiem
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 ob, 2 fag, 2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -15,6 +15,6 @@ sources:
     url: https://data.onb.ac.at/rec/AC14254701
     license: public domain
     principal: true
-imslp:
+imslp: Requiem_(Adlgasser,_Anton_Cajetan)
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
