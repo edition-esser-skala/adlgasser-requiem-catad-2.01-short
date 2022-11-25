@@ -1,19 +1,19 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "trb 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Introitus"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm systems-per-page = #3 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \IntroitusOrgano
+          \set Staff.instrumentName = "Trombone II"
+          \IntroitusTromboneII
         }
       >>
     }
@@ -21,10 +21,10 @@
   \bookpart {
     \section "2" "Kyrie"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieTromboneII }
       >>
     }
   }
@@ -33,7 +33,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SequentiaOrgano }
+        \new Staff { \SequentiaTromboneII }
       >>
     }
   }
@@ -42,25 +42,27 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \OffertoriumOrgano }
+        \new Staff { \OffertoriumTromboneII }
       >>
     }
   }
   \bookpart {
     \section "5" "Sanctus"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusTromboneII }
       >>
     }
   }
   \bookpart {
     \section "6" "Benedictus"
     \addTocEntry
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusTromboneII }
       >>
     }
   }
@@ -69,7 +71,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusTromboneII }
       >>
     }
   }

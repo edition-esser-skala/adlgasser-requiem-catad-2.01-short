@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "fag 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \IntroitusOrgano
+          \set Staff.instrumentName = "Fagotto I"
+          \IntroitusFagottoI
         }
       >>
     }
@@ -21,10 +21,10 @@
   \bookpart {
     \section "2" "Kyrie"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieFagottoI }
       >>
     }
   }
@@ -33,7 +33,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SequentiaOrgano }
+        \new Staff { \SequentiaFagottoI }
       >>
     }
   }
@@ -42,16 +42,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \OffertoriumOrgano }
+        \new Staff { \OffertoriumFagottoI }
       >>
     }
   }
   \bookpart {
     \section "5" "Sanctus"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusFagottoI }
       >>
     }
   }
@@ -60,7 +61,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusFagottoI }
       >>
     }
   }
@@ -69,7 +70,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusFagottoI }
       >>
     }
   }

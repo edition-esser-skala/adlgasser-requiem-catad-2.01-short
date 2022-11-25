@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \IntroitusOrgano
+          \set Staff.instrumentName = "Violino II"
+          \IntroitusViolinoII
         }
       >>
     }
@@ -21,10 +21,9 @@
   \bookpart {
     \section "2" "Kyrie"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieViolinoII }
       >>
     }
   }
@@ -33,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SequentiaOrgano }
+        \new Staff { \SequentiaViolinoII }
       >>
     }
   }
@@ -42,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \OffertoriumOrgano }
+        \new Staff { \OffertoriumViolinoII }
       >>
     }
   }
@@ -51,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -60,16 +59,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
   \bookpart {
     \section "7" "Agnus Dei"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
