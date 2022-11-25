@@ -266,3 +266,65 @@ BenedictusClarinoII = {
     c8 c c c c4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    e4\f r g8 c, r4
+    g'8 c, r4 c r
+    c r r r8 g'
+    e c16. c32 c4 r2
+    R1 %5
+    c4\fE r8 d' g,4 g8. g16
+    c,4 r r2
+    R1*2
+    d'4 d8. d16 g,4 r %10
+    d'8 g, r4 d'8 g, r4
+    c r g r
+    r2 r8 g16. g32 g4
+    R1
+    r2 g4\f r8 c %15
+    d4 d8. d16 g,4 r
+    R1
+    r2 r4 r8 d'16. d32
+    g,4 r r8 g16. g32 g8 g
+    g4 r r2 %20
+    R1*9 %29
+    c,8\f c16 c c8 c c4 r %30
+    c8 c16 c c8 c c4 r
+    r2 g'4 r
+    r2 g8 g16 g g8 r
+    g4 r r2
+    g4 r r2 %35
+    R1
+    r2 c,4\f r8 d'
+    g,4 g8. g16 e8 c16. c32 c4
+    R1
+    r2 c4\f r8 d' %40
+    g,2 g8. g16 g8 g
+    c,4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      e4\f r r \noBreak
+    c r r %45
+    c e e8. e16
+    e4 r r
+    R2.*6 %53
+    c8.\f c16 c8 c c c
+    g'4 r d'8. d16 %55
+    g,4 r r
+    R2.*2
+    e4\f r r
+    R2. %60
+    r4 c'\f c
+    g c r
+    g g r
+    R2.*2 %65
+    c2 d4
+    g, c c
+    g8. g16 g8 g g g
+    c,4 r g'8. g16
+    e4 r r\fermata \bar "|." %70 finis
+  }
+}

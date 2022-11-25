@@ -540,3 +540,75 @@ BenedictusOboeII = {
     e8 e e e e4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    e4\f r r8 g e g
+    r g e g r a4 a8
+    r g4 g8 h c a h
+    c4 r r2
+    r r8 c4\p c8 %5
+    a4\f d c h
+    c8 g g r r a a r
+    r g g r r fis4 fis8
+    g h c4 h8 d g, c
+    h4 a g r %10
+    r8 g4 g8 r g4 g8
+    g1
+    fis8 g e fis g4 r
+    R1
+    r8 g4\p g8 g4\f a %15
+    g fis g8 g g r
+    r g g r r g g r
+    r e4 fis8 g4~ g8 fis
+    g g g g g r r4
+    r8 g g g g4 r %20
+    gis2\pp a4 gis
+    a gis a8 r r4
+    R1
+    r2 r4 r8 h
+    a4 gis8 r r2 %25
+    R1
+    r8 a\f a r r a a r
+    r a a r r a gis gis
+    a4~ a8 gis a r a4~
+    a8 g g4 f a~ %30
+    a8 g g4 f e
+    d2~ d4 r
+    c'2 h4 r
+    r g8 g e'8. d16 c4
+    r g8 g e'8. d16 c4 %35
+    R1
+    r8 c4\p c8 a4\f d
+    c h c r
+    R1
+    r8 c4\p c8 a4\f d %40
+    c2 h
+    c2.\p h4 \noBreak
+    c r r2 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      g2.\f \noBreak
+    a %45
+    g~
+    g4 r r
+    R2.*7 %54
+    h4.\f g8 \appoggiatura h16 a8 g16 fis %55
+    g4 r r
+    R2.
+    r4 r8 h\pE\cresc g h
+    c4\fE r r
+    R2. %60
+    r4 c\f c
+    d c2
+    h4 c2
+    d2.
+    c2 d4 %65
+    c2 a4
+    g r r
+    R2.
+    e'4. c8 \appoggiatura e16 d8 c16 h
+    c8 g c4 r\fermata \bar "|." %70 finis
+  }
+}

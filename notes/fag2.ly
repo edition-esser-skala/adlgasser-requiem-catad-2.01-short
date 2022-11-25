@@ -570,3 +570,73 @@ BenedictusFagottoII = {
     c8 c c c c4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    c4\f r r8 c4 e8
+    r c4 e8 r f4 f8
+    r e4 e8 d c d g,
+    c4 r r2
+    r r8 e4\p e8 %5
+    f4.\f d8 g4 g,
+    c8e  e r r f f r
+    r e e r r d4 c8
+    h4 a g4. c8
+    d2 g4 r %10
+    r8 g4 h8 r g4 h8
+    c2 h
+    a8 g a d, g4 r
+    R1
+    r8 h,4\p h8 c4.\fE a8 %15
+    d2 g,8 h h r
+    r c c r r h h r
+    r c4 c8 h c d4
+    g,8 g' g g g r r4
+    r8 g g g f!4 r %20
+    R1*2
+    r4 c'~\ppE c8 h4 a8
+    gis4 h a gis8 r
+    R1*2 %26
+    r8 c,\f c r r d d r
+    r c c r r d4 d8
+    c d e4 a,8 r a'4~
+    a8 g! g4 f a~ %30
+    a8 g g4 f g
+    a2 g4 r
+    a2 g4 g8 g
+    d'8. c16 h4 r g8 g
+    d'8. c16 h4 r2 %35
+    R1
+    r8 e,4\p e8 f4.\f d8
+    g4 g, c r
+    R1
+    r8 e4\p e8 f4.\f d8 %40
+    g2 g,
+    c4 r r2 \noBreak
+    c'2.\p h4 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      c,2.~\f \noBreak
+    c~ %45
+    c~
+    c4 r r
+    R2.*7 %54
+    h'4.\f g8 \appoggiatura h16 a8 g16 fis %55
+    g4 r r
+    R2.
+    r4 r8 h\pE\cresc c d
+    e4\fE r r
+    R2. %60
+    r4 c,\f c
+    h c2
+    f4 e2
+    f g4
+    a2 gis4 %65
+    a2 f4
+    g! r r
+    R2.
+    e'4. c8 \appoggiatura e16 d8 c16 h
+    c8 g c4 r\fermata \bar "|." %70 finis
+  }
+}

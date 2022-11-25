@@ -356,3 +356,66 @@ BenedictusTromboneI = {
     e2. r4\fermata \bar "|." %46 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAgnus
+    g'4.\f g8 g g r g
+    g g r g a4 f8 a
+    g4 e8 c d e d4
+    c r r2
+    R1 %5
+    f4.\f a8 g4. g8
+    g4 r r2
+    R1*2
+    r2 d4. d8 %10
+    d d r d d d r d
+    e4 c8 e d4 h8 d
+    fis g e fis g4 r
+    R1
+    r2 e4\f g8 e %15
+    d4. d8 d4 r
+    R1*2
+    r2 r4 g8 g
+    g d r4 r2 %20
+    R1*9 %29
+    e8\f e e4 f a~ %30
+    a8 g16 g g8 g f4 e
+    d2 d4 r
+    c2 h4 r
+    r g' e c
+    r g' e c %35
+    R1
+    r2 f4.\f a8
+    g2 g4 r
+    R1
+    r2 f4.\f a8 %40
+    g2 g4. g8
+    g4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      e4.\f e8 e e \noBreak
+    f2. %45
+    e~
+    e4 r r
+    R2.
+    r4 d\p d
+    c2 e8 g %50
+    a2.~
+    a
+    g2\cresc g4
+    g\f fis4. fis8
+    g4 r r %55
+    R2.*6 %61
+    g4\f g r
+    g g r
+    d d d
+    c2 h4 %65
+    a2 a'4
+    g2.
+    f
+    e4 r r
+    R2.\fermata \bar "|." %70 finis
+  }
+}

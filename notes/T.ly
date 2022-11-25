@@ -880,3 +880,142 @@ BenedictusTenoreLyrics = \lyricmode {
   in ex -- cel -- %45
   sis. %46 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr e4.\f^\tutti c8 d c r c
+    d c r c c4 c8 f,
+    g4 g8 g h c a([ h])
+    c4 r r2
+    R1 %5
+    a8.\f a16 a8 f' e4( d8.) d16
+    c4 r r2
+    R1*2
+    r2 h4. g8 %10
+    a g r g a g r g
+    g4 g8 g g4 g8 d'
+    c h e([ d)] d4 r
+    r2 d,4\p d'
+    d8 h r4 c8.\f c16 e16.([ c32)] e16.([ c32)] %15
+    h4( a8.) a16 g4 r
+    R1*2
+    r2 r4 h8^\critnote h
+    h g r4 r2 %20
+    R1*2
+    r4 \mvTr c4.\pE^\solo h8 h a
+    gis8. gis16 gis4 a8. a16 gis8 e'
+    c8. c16 h4 r2 %25
+    e8 e16 e f([ d)] c([ h)] a4( h)
+    a r r2
+    R1
+    r2 r4 \mvTr a~\f^\tutti
+    a8 g g4 f r %30
+    e8 g16 f e8 c' c8. c16 c8 c
+    c c c4 h! r
+    a8 a a4 g g8 g
+    f'!8. e16 d4 r g,8 g
+    f'8. e16 d4 r2 %35
+    d,4\p d' d8 h r4
+    r2 a4.\f f'8
+    e4 d c r
+    R1
+    r2 a4.\f f'8 %40
+    e4. g16([ c,)] d4. d8
+    c4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      \mvTr g4.\f^\tutti g8 g g \noBreak
+    a2. %45
+    g~
+    g4 r r
+    R2.
+    a2\p h4
+    c2.~ %50
+    c
+    c4 c c
+    h2\cresc h4
+    c2\f c4
+    d r r %55
+    R2.*3
+    r4 r8 \mvTr c\pE^\solo c d
+    e4. g16 e \appoggiatura e d8 c16 h %60
+    c8 c r \mvTr e\f^\tutti e e
+    d4 c c8 c
+    h4 c r
+    a2 h4
+    c4. c8 d4 %65
+    c2 d8.([ f16)]
+    e2.
+    d
+    c4 r r
+    R2.\fermata \bar "|." %70 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di:
+
+  Do -- na e -- i re -- qui -- %6
+  em.
+
+  A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta pec --
+  ca -- ta mun -- di:
+  Do -- na
+  e -- i, do -- na e -- i __ %15
+  re -- qui -- em.
+
+  A -- gnus %19
+  De -- i: %20
+
+  Do -- na e -- i %23
+  re -- qui -- em, do -- na e -- i
+  re -- qui -- em, %25
+  re -- qui -- em sem -- pi -- ter --
+  nam.
+
+  Lux __ %29
+  ae -- ter -- na lu -- %30
+  ce -- at e -- i, Do -- mi -- ne, cum
+  San -- ctis tu -- is
+  in ae -- ter -- num, qui -- a
+  pi -- us es, qui -- a
+  pi -- us es, %35
+  qui -- a pi -- us,
+  qui -- a
+  pi -- us es,
+
+  qui -- a, %40
+  qui -- a __ pi -- us
+  es.
+
+  Re -- qui -- em ae --
+  ter -- %45
+  nam __
+
+  do -- na, %49
+  e -- %50
+
+  i, do -- na
+  e -- i,
+  Do -- mi --
+  ne: %55
+
+  Et lux per -- %59
+  pe -- tu -- a lu -- ce -- at %60
+  e -- i. Cum San -- ctis
+  tu -- is in ae --
+  ter -- num,
+  qui -- a
+  pi -- us es, %65
+  qui -- a __
+  pi --
+  us
+  es. %69 finis
+}

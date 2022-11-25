@@ -1440,3 +1440,154 @@ BenedictusBassFigures = \figuremode {
   r4 <6 5->2. %45
   r1 %46 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr c4.\f-\tutti e8 h c r e
+    h c r e f f f f
+    e e e e d c d g,
+    c4 r f8\p r fis r
+    g r f r e r e\cresc r %5
+    f\f r f d g g g g
+    c, c'-\solo e, c r f a c
+    r e, g c d, d d c
+    h h a a g r h c
+    d d d d g,4-\tutti r8 h' %10
+    fis g r h fis g r h,
+    c c c c h h h h'
+    a g a d, g4 r
+    c,8\p r cis r d r c r
+    h r h\cresc r c\f r c a %15
+    d d d d g, g'-\solo h, g
+    r c e g r h, d g
+    c,4 r8 c h c d d,
+    g' g,-\markup \remark "unisono in 8va"-\tuttiE h d g4 r
+    r8 g, h d f!4 r %20
+    \mvTr e(\p-\solo d) r8 c h r
+    r c h r r c h e
+    a,2 d
+    e r8 \once \slurDashed dis( e) r
+    r dis( e) r e'4 d %25
+    c8 c, d d e\cresc e e e
+    a\f a, c a r d f a
+    r c, e a r d, d d
+    c d e e, a4 r
+    c2-\tutti f,4 r %30
+    c'2 f4 g
+    a8 a a a g4 r
+    d8 d d d g,4 r
+    g' r g r
+    g r g r %35
+    f8\p r fis r g r f r
+    e r e\cresc r f\f r f d
+    g g g g c, \tuplet 3/2 8 { c16 e d^\critnote c[ e d] c d e }
+    f8\p r fis r g r f r
+    e r e\cresc r f\f r f d %40
+    g g g g g, g g g
+    c r a'\p r f r g r \noBreak
+    c, r a' r f r g r \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      \mvTr c,8.[\f-\tutti c'16 g8. c16 e,8. g16] \noBreak
+    c,8.[ c'16 a8. c16 f,8. a16] %45
+    c,8.[ c'16 g8. c16 e,8. g16]
+    c,4 r r
+    R2.
+    \mvTr f2\p g4
+    a2 g4 %50
+    f r r
+    fis r r
+    g8\cresc g g g g g
+    as\f as as as as as
+    g4 r d %55
+    g8-! d-! g4 r
+    \mvTr g,\p-\solo r d'
+    g8-! d-! g-!\cresc f!-! e-! d-!
+    c\f c' c,4 r
+    c\p r g %60
+    c8 g \mvTr c\f-\tutti e g c
+    h g c g c e
+    f, g, e' g, c e
+    f f f f g g
+    a a a a gis gis %65
+    a a a a f f
+    g! g g g g g
+    g, g g g g g
+    c4 r g
+    c8 g c4 r\fermata \bar "|." %70 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r4. <6>8 <6 5>4. <6>8
+  <6 5>4. <6>8 <5>2
+  <6> q8 <8> <5> <7 3>
+  <8 3>2 <6>4 <6 5>
+  r <4 2> <6> <\t> %5
+  <5> <6> <6 4> <5 3>
+  r2 r8 <5>4.
+  r8 <6>4. <7 _+> <4+ 2>8
+  <6>4 <5>8 <6\\>4. <6>8 q
+  <6 4>4 <5 _+>2 r8 <6> %10
+  <6 5>4. <6>8 <6 5>4. <6>8
+  r2 <6>
+  <6\\>8 <3> <5> <7 _+> <8 3>2
+  <6>4 <6 5> <_+> <4+ 2>
+  <6>2 <5>4 <6> %15
+  <6 4> <5 _+>2.
+  r8 <5>2 <6>4.
+  <5> <4+ 2>8 <6>4 <6 4>8 <5 _+>
+  r1
+  r %20
+  <5 _+>4 <4+ 2>4. <6>8 <6\\>4
+  r8 <6> <6\\>4. <6>8 <5+ 4> <7 _+>
+  r2 <7 [_!]>8 <6> <\t> <5>
+  <9 _+> \bassFigureExtendersOn <8 _+>4 <7 _+> \bassFigureExtendersOff <7 5 [_+]>8 <5 _+>4
+  r8 <7 5 [_+]> <5 _+>4 <_+> <4+ 2> %25
+  <6> <6 5> <6 4> <5 _+>
+  r2 r8 <5>4.
+  r8 <6>2 q8 <4+ 3>4
+  <6>8 q <6 4> <5 _+> r2
+  <8 6>4 <7- 5!>2. %30
+  <8 6>4 <7- 5>2 <6 4>4
+  <6\\ 4 3>2 <8 _!>
+  <7 _+>1
+  <7! 3>2 <6 4>
+  <7 3> <6 4> %35
+  <6>4 <6 5>2 <4 2>4
+  <6>2 <5>4 <6>
+  <6 4> <5 3>2.
+  <6>4 <6 5>2 <4 2>4
+  <6>2 <5>4 <6> %40
+  <6 4>2 <5 3>
+  r2 <6 5>
+  r q
+  <8 3>2 \bassFigureExtendersOn q8. q16
+  <6 4>2 q8. q16 %45
+  <5 3>2.
+  q4 \bassFigureExtendersOff r2
+  r2.
+  <9 6>4 <8 \t> <7 3>
+  <6 3> <5 \t> <6 4> %50
+  <7 5> <6 \t>2
+  <7- 5>2.
+  <6- 3>2 <5 \t>4
+  \bo <7 [5-]> \bc <6\\ [\t]>2
+  <_!> <7 _+>4 %55
+  r2.
+  r2 <[7 _+]>4
+  r2.
+  r
+  r2 <7>4 %60
+  <8 3>2 \bassFigureExtendersOn q8 q
+  <6 5>4 <8 3>4. q8 \bassFigureExtendersOff
+  <4 2>4 <6>4. \once \bassFigureExtendersOn q8
+  q2 <7>4
+  \bo <[6 3]> \bc <[5 \t]> <6 5> %65
+  <5>2 <6>4
+  <6 4>2.
+  <5 3>
+  r2 <7>4
+  r2. %70 finis
+}

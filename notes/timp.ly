@@ -242,3 +242,61 @@ BenedictusTimpani = {
     c8 c c c c4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    c4\f r g8 c r4
+    g8 c r4 c r
+    c r r r8 g
+    c c16. c32 c4 r2
+    R1 %5
+    r2 g4\fE g8. g16
+    c4 r r2
+    R1*2
+    r2 g4 r %10
+    R1
+    c4 r g r
+    r2 r8 g16. g32 g4
+    R1
+    r2 c4\f r %15
+    r2 g4 r
+    R1*2
+    g4 r r8 g16. g32 g8 g
+    g4 r r2 %20
+    R1*9 %29
+    c8\f c16 c c8 c c4 r %30
+    c8 c16 c c8 c c4 r
+    r2 g4 r
+    r2 g8 g16 g g8 r
+    g4 r r2
+    g4 r r2 %35
+    R1*2
+    g4\f g8. g16 c8 c16. c32 c4
+    R1*2 %40
+    g8. g16 g8 g g8. g16 g8 g16 g
+    c4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      c4\f r r \noBreak
+    c r r %45
+    c c c8. c16
+    c4 r r
+    R2.*6 %53
+    c8.\f c16 c8 c c c
+    g4 r r %55
+    g r r
+    R2.*2
+    c4\f r r
+    R2. %60
+    r4 c\f c
+    g c r
+    g c r
+    R2.*3 %66
+    g4 r r
+    g8. g16 g8 g g g
+    c4 r g8. g16
+    c4 r r\fermata \bar "|." %70 finis
+  }
+}

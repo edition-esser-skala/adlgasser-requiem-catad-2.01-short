@@ -715,3 +715,81 @@ BenedictusViolinoII = {
     e8 <c g' e'> q q q4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    c'16.\f c,32 e16. g32 c16. e32 g16. g,32 \once \slurDashed d'8[( c16) r32 e,] g( e) g( e) c16[ r32 g']
+    d'8[( c16) r32 e,] g( e) g( e) c8 <f a> r \tuplet 3/2 8 { c'16[ a f] f' c a }
+    g8 r \tuplet 3/2 8 { c16[ g e] e' c g } h h c c a a h h
+    c8 c,16. c32 c4 r16 <f a>\pE q q r <a c> q q
+    r <g h> q q r <d h'> q q r <e c'> q q r <g e'>\cresc q q %5
+    r c\f c c \slurDashed a16.( f32) a16.( f32) \slurSolid e c' c c c c c c h h h h h h h h
+    c,4. r8 r16. c32 h([ c d c)] a8 r
+    r16. c32 h([ c d c)] g8 r c'16 fis,8 fis16~ fis fis32( a) c([ h e d)]
+    d16 d8 c32( h) c([ h a h)] c( d e fis) g16-! h-! g-! d-! h-! g'-! c,,-! e'-!
+    d, g g g fis fis fis fis g16. g,32 h16. d32 g16. h32 d16. d,32 %10
+    a'8([ g16) r32 h,] d( h) d( h) g16[ r32 d'] a'8[( g16) r32 h,] d( h) d( h) g8
+    <c e> r \tuplet 3/2 8 { g'16[ e c] c' g e } d8 r \tuplet 3/2 8 { h'16[ g d] d' h g }
+    fis fis g g e e fis fis g8 g,16. g32 g4
+    r16 <c e>\p q q r e e e r d d d r <fis a> q q
+    r <g h> q q r <g d'>\cresc q q r g\f g g e16.( c32) e16.( c32) %15
+    \tuplet 3/2 8 { h16[ g' g] g g g fis fis fis fis[ fis fis] } g,4. r8
+    r16. g'32 fis([ g a g)] e8 r r16. g32 fis([ g a g)] d8 r
+    g'32( e g e) e([ c e c)] c( a c a) h([ a h c)] d16. \tuplet 3/2 8 { e64 d cis } d16. e32 g,8 fis
+    g g,16 g h h d d g8 r r4
+    r8 g,16 g h h d d f!4 r %20
+    <gis h,>2\p r8 a,-! d-! r
+    r a-! d-! r r e( fis gis)
+    a \appoggiatura h,32 a( gis a h) a8 r r2
+    r2 r8 \tuplet 3/2 8 { a16 a a } gis8 r
+    r \tuplet 3/2 8 { a'16 a a } gis8 dis'32( e dis e) e,8 r r4 %25
+    a2~ \tuplet 3/2 8 { a16\cresc a a a[ a a] gis gis gis gis[ gis gis] }
+    a,4.\f r8 r16. a'32 gis([ a h a)] f8 r
+    r16. a32 gis([ a h a)] e8 r r4 gis,
+    a8. d16 c8( h) a \appoggiatura h'32 a( gis a h) a4~
+    \once \slurDashed a16( f') g,-! g-! g( e') g,32([ f g e)] f8 \appoggiatura b32 a( g a b) a4~ %30
+    a16( f') a,-! a-! g( g') g,32([ f g e)] f16( f') f-! f-! e( c) c-! c-!
+    c fis,8 fis16 fis c8 c16 h32([ d e fis)] \appoggiatura a g( fis g a) h8 r
+    <fis c>16 <d c>8 q q q16 <d h>8 g g,4
+    f'32([ e d e)] f([ e d e)] f([ e d e)] f([ e f d)] g([ f e f)] g([ f e f)] g([ f e f)] g([ f g e)]
+    d'([ c h c)] d([ c h c)] d([ c h c)] d([ c d h)] e([ d c d)] e([ d c d)] e([ d c d)] e([ d e c)] %35
+    d16 <a f>\p q q r <a c> q q r <g h> q q r <h d,> q q
+    r <c e,> q q r <e g,>\cresc q q r c\f c c a16.( f32) a16.( f32)
+    \tuplet 3/2 8 { e16( c') c-! c[ c c] h h h h[ h h] } c8 \tuplet 3/2 8 { c,16 e d c[ e d] c d e }
+    f\p <f a> q q r <a c> q q r <g h> q q r <h d> q q
+    r <c e,> q q r <e g,>\crescE q q r c\f c c \slurDashed a16.( f32) a16.( f32) \slurSolid %40
+    \tuplet 3/2 8 { e16( c') c-! c[ c c] c c c c[ c c] h( d) d-! d[ d d] d d d d[ d d] }
+    c8 e r c\p r c r h \noBreak
+    r e, r c r c r h \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      c8.[\f c'16 g8. c16 e,8. g16] \noBreak
+    c,8.[ c'16 a8. c16 f,8. a16] %45
+    c,8.[ c'16 g8. c16 e,8. g16]
+    c,4 e'(\p f)
+    g( f e)
+    a,2( h4)
+    c2.~ %50
+    c4 c(-. c-.)
+    r c(-. c-.)
+    h8\cresc g g g g g
+    g\f g fis fis fis fis
+    g[ r16 g'] g8[ r16 g,] \appoggiatura h a8( g16 fis) %55
+    g8 d g4 r
+    h2(\p a4)
+    g8-! d-! g-!\cresc f!-! e-! d-!
+    c8.\f c'16 c4 r
+    e2(\p d4) %60
+    c8 <c e>4\f q q8
+    d16( h d h) c8 <c e>4 q8
+    h16( g h g) c( e32 f) g16-! f-! e-! d-! c-! h-!
+    a8 a4 a8 h[ h]
+    c <c e>4 q8 <h e>[ q] %65
+    <c e>16 q q q q q q q d( cis d f,)
+    e8 c' c c c c
+    h h h h h h
+    c[ r16 c] c8[ r16 c,] \appoggiatura e d8( c16 h)
+    c8 g c4 r\fermata \bar "|." %70 finis
+  }
+}

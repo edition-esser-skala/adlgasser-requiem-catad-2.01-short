@@ -35,6 +35,8 @@ tempoSanctus = \tempoMarkup "Moderato"
   tempoSanctusB = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Andante maestoso"
   tempoOsanna = \tempoMarkup "Allegro"
+tempoAgnus = \tempoMarkup "Andante moderato"
+  tempoAgnusB = \tempoMarkup "Moderato"
 
 
 \include "notes/ob1.ly"

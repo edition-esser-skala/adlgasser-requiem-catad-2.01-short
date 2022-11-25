@@ -266,3 +266,65 @@ BenedictusClarinoI = {
     c8 c c c c4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    c'4\f r \pa g8 c \pd r4
+    \pa g8 c \pd r4 c r
+    c r r r8 d
+    c e,16. e32 e4 r2
+    R1 %5
+    c'4\fE r8 \pao d e4 d8. d16
+    c4 r r2
+    R1*2
+    \pa d4 d8. d16 \pd d4 r %10
+    \pa d8 g \pd r4 \pa d8 g \pd r4
+    e r d r
+    r2 r8 \pa g,16. g32 g4 \pd
+    R1
+    r2 e'4\f r8 e %15
+    \pa d4 d8. d16 \pd d4 r
+    R1
+    r2 r4 r8 \pa d16. d32 \pd
+    d4 r r8 g16. g32 g8 g
+    g4 r r2 %20
+    R1*9 %29
+    c,8\f c16 c c8 c c4 r %30
+    c8 c16 c c8 c c4 r
+    r2 \pao g4 r
+    r2 \pa g8 g16 g g8 \pd r
+    g'4 r r2
+    g4 r r2 %35
+    R1
+    r2 c,4\f r8 \pao d
+    e4 d8. d16 c8 e,16. e32 e4
+    R1
+    r2 c'4\f r8 \pao d %40
+    e2 d8. d16 d8 d
+    c4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      c4\f r r \noBreak
+    c r r %45
+    c c c8. c16
+    c4 r r
+    R2.*6 %53
+    c8.\f c16 c8 c c c
+    \pao g4 r \pa d'8. d16 \pd %55
+    d4 r r
+    R2.*2
+    c4\f r r
+    R2. %60
+    r4 e\f e
+    d e r
+    d c r
+    R2.*2 %65
+    e2 \pa d4
+    g, \pd e' e
+    d8. d16 d8 d d d
+    c4 r d8. d16
+    c4 r r\fermata \bar "|." %70 finis
+  }
+}

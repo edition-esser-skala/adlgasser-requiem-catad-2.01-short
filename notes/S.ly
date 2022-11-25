@@ -983,36 +983,138 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %46 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr c'4.\f^\tutti c8 f e r c
+    f e r c c4 a8 c
+    c4 g8 c f, e f4
+    e r d\p d'
+    d8 h r4 r c~\f %5
+    c8. a16 f'16.([ d32)] f16.([ d32)] c4( h8.) h16
+    c4 r r2
+    R1*2
+    r2 g4. g8 %10
+    c h r g c h r g
+    g4 e8 g g4 d8 g
+    a h c4 h r
+    R1
+    r4 g~\f g8. e16 c'16.([ a32)] c16.([ a32)] %15
+    g4( fis8.) fis16 g4 r
+    R1*2
+    r2 r4 d'8 d
+    d h r4 r \mvTr d8\pE^\solo d %20
+    d h r f'!16([ e)] e4. f16 e
+    e4. f16 e e8. f16 \appoggiatura e8 d4
+    c r r2
+    R1*5 %28
+    r2 r4 \mvTr c~\f^\tutti
+    c8 b b4 a c~ %30
+    c8 b16 b b8 b a8. a16 g8 g
+    fis fis fis4 g d'~
+    d8 fis, fis4 g r
+    r g8 g g'8. f!16 e4
+    r g,8 g g'8. f16 e4 %35
+    R1
+    r4 c~\f c8. a16 f'16.([ d32)] f16.([ d32)]
+    c4 h c r
+    d,\p d' d8 h r4
+    r c~\f c8. a16 f'16.([ d32)] f16.([ d32)] %40
+    c2 h
+    c4 r r2 \noBreak
+    R1 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      \mvTr c4.\f^\tutti c8 c c \noBreak
+    c2. %45
+    c~
+    c4 r r
+    r r g'~\p
+    g8.[ e16] f8 r f4~
+    f8.[ d16] e4 r %50
+    r d d
+    es2.~
+    es2\cresc d4
+    c2\f c4
+    h r r %55
+    r r8 \mvTr h\pE^\solo h c
+    d4. g16 d \appoggiatura d c8 h16 a
+    h8 h r4 r
+    R2.*2 %60
+    r4 r8 \mvTr c\f^\tutti c c
+    f4 e e8 e
+    d4 c r
+    a8.([ f'16)] f2
+    f8.([ e16)] e2 %65
+    e4 e f8.([ d16)]
+    c2.
+    h
+    c4 r r
+    R2.\fermata \bar "|." %70 finis
+  }
+}
 
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di: Do -- na
+  e -- i, do -- %5
+  na e -- i __ re -- qui --
+  em.
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na e -- is re -- qui -- em sem -- pi -- ter -- nam.
+  A -- gnus %10
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta pec --
+  ca -- ta mun -- di:
 
+  Do -- na e -- i __ %15
+  re -- qui -- em.
 
-% # Communio
+  A -- gnus %19
+  De -- i, a -- gnus %20
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta mun --
+  di:
 
-% Lux ae -- ter -- na lu -- ce -- at e -- is, Do -- mi -- ne.
-% Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
-% Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-% Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
-% Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
+  Lux __ %29
+  ae -- ter -- na lu -- %30
+  ce -- at e -- i, Do -- mi -- ne, cum
+  San -- ctis tu -- is in __
+  ae -- ter -- num,
+  qui -- a pi -- us es,
+  qui -- a pi -- us es, %35
 
+  qui -- a, qui -- a __
+  pi -- us es,
+  qui -- a pi -- us,
+  qui -- a, qui -- a __ %40
+  pi -- us
+  es.
 
-% # Responsorium
+  Re -- qui -- em ae --
+  ter -- %45
+  nam __
 
-% Li -- be -- ra me, Do -- mi -- ne, de mor -- te ae -- ter -- na,
-% in di -- e il -- la tre -- men -- da,
-% quan -- do coe -- li mo -- ven -- di sunt et ter -- ra,
-% dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Tre -- mens fa -- ctus sum e -- go, et ti -- me -- o,
-% dum dis -- cus -- si -- o ve -- ne -- rit, at -- que ven -- tu -- ra i -- ra.
-% Di -- es il -- la, di -- es i -- rae,
-% ca -- la -- mi -- ta -- tis et mi -- se -- ri -- ae,
-% di -- es ma -- gna et a -- ma -- ra val -- de.
-% Dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-% Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
+  do --
+  na, do --
+  na, %50
+  do -- na
+  e --
+  i,
+  Do -- mi --
+  ne: %55
+  Et lux per --
+  pe -- tu -- a lu -- ce -- at
+  e -- i.
+
+  Cum San -- ctis %61
+  tu -- is in ae --
+  ter -- num,
+  qui -- a
+  pi -- us %65
+  es, qui -- a __
+  pi --
+  us
+  es. %69 finis
+}

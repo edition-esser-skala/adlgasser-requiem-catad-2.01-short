@@ -588,3 +588,75 @@ BenedictusOboeI = {
     g8 g g g g4 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    c'4\f r r8 e g c,
+    r e g c, r c4 c8
+    r c4 c8 \pa d e f4 \pd
+    e r r2
+    r r8 g4\p g8 %5
+    a4\f f e d
+    \pa c8 c c \pd r r c c r
+    r c c r r a4 a8
+    h d e fis g4~ g16 d e a
+    g4 fis\trill g r %10
+    r8 \pa h, d g, \pd r \pa h d g,
+    g1 \pd
+    a8 h c4 h r
+    R1
+    r8 d4\p d8 e4\f c %15
+    h a \pa g8 d' d \pd r
+    r e e r r d d r
+    r c4 a8 \pa d8.. e32 h8 a
+    g h h h \pd h r r4
+    r8 h h h d4 r %20
+    h2\pp c4 d
+    c d c8 r r4
+    R1
+    r2 r4 r8 d
+    c4 h8 r r2 %25
+    R1
+    r8 e\f e r r f f r
+    r e e r r \pa h4 f'8
+    e8.. f32 c8 h a \pd r c4~
+    c8 b b4 a c~ %30
+    c8 b b4 a g
+    \pa fis2 g4 d' \pd
+    fis2 g4 r
+    r \pa g,8 g \pd g'8. f!16 e4
+    r \pa g,8 g \pd g'8. f16 e4 %35
+    R1
+    r8 g4\p g8 a4\f f
+    e d \pao c r
+    R1
+    r8 g'4\p g8 a4\f f %40
+    e2 d
+    e2\p d \noBreak
+    \pao c4 r r2 \bar "||"
+    \time 3/4 \tempoAgnusB \newSpacingSection
+      e2.\f \noBreak
+    f %45
+    e~
+    e4 r r
+    R2.*7 %54
+    d4.\f h8 \appoggiatura d16 c8 h16 a %55
+    \pao g4 r r
+    R2.
+    r4 r8 d'\pE\cresc g f!
+    e4\fE r r
+    R2. %60
+    r4 e\f e
+    f e2
+    d4 \pao c2
+    a4 f'2~
+    f8 e e2~ %65
+    e f8 d
+    c4 r r
+    R2.
+    g'4. e8 \appoggiatura g16 f8 e16 d
+    \pa c8 g c4 \pd r\fermata \bar "|." %70 finis
+  }
+}
