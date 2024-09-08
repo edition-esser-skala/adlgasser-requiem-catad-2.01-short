@@ -629,7 +629,7 @@ SanctusViolinoI = {
     <g e' c'>8\f g'-! g-! g-! a-! a-!
     a8.(\trill g32 a) g16-! e'( d c) h( c d h)
     <c e,>8 e-! e-! e-! f-! f-!
-    f4\trill 16-! g( f e) d( e f d)
+    f4\trill e16-! g( f e) d( e f d)
     e8 <e g,>4\p q q8~ %5
     q16 <e b>8\f q q q q q16
     <f a,> f f f f f f f e e e e

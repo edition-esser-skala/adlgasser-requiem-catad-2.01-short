@@ -750,7 +750,7 @@ AgnusViolinoII = {
     r16. a32 gis([ a h a)] e8 r r4 gis,
     a8. d16 c8( h) a \appoggiatura h'32 a( gis a h) a4~
     \once \slurDashed a16( f') g,-! g-! g( e') g,32([ f g e)] f8 \appoggiatura b32 a( g a b) a4~ %30
-    a16( f') a,-! a-! g( g') g,32([ f g e)] f16( f') f-! f-! e( c) c-! c-!
+    a16( f') g,-! g-! g( g') g,32([ f g e)] f16( f') f-! f-! e( c) c-! c-!
     c fis,8 fis16 fis c8 c16 h32([ d e fis)] \appoggiatura a g( fis g a) h8 r
     <fis c>16 <d c>8 q q q16 <d h>8 g g,4
     f'32([ e d e)] f([ e d e)] f([ e d e)] f([ e f d)] g([ f e f)] g([ f e f)] g([ f e f)] g([ f g e)]
