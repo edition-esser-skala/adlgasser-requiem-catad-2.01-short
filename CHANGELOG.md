@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.0.1 - 2024-09-01
+## 1.0.1 - 2024-09-08
+
+### Added
+
+- details (exact bar numbers) on cuts compared to original version
 
 ### Changed
 
@@ -9,6 +13,8 @@
 ### Fixed
 
 - abbreviation for catalogue of works
+- Sanctus, bar 4, vl 1, 5th 16: f″16 → e″16
+- Agnus Dei, bar 31, vl 2, 2nd 8: a′16–a′16 → g′16–g′16
 
 
 ## 1.0.0 – 2022-11-25
